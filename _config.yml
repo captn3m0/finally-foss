@@ -4,6 +4,9 @@ description: >-
 baseurl: "/finally-foss"
 url: "https://captnemo.in"
 
+plugins:
+  - jekyll-timeago
+
 exclude:
   - src/
   - pyproject.toml

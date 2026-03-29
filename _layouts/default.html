@@ -29,20 +29,5 @@
   <footer>
     <p>Made with ♠ in Berlin by <a href="/">Nemo</a></p>
   </footer>
-  <script>
-    document.querySelectorAll(".relative-time[data-date]").forEach(function (el) {
-      var d = new Date(el.getAttribute("data-date"));
-      var now = new Date();
-      var diff = Math.floor((now - d) / 86400000);
-      var rel;
-      if (diff < 0) rel = "in the future";
-      else if (diff === 0) rel = "today";
-      else if (diff === 1) rel = "yesterday";
-      else if (diff < 30) rel = diff + " days ago";
-      else if (diff < 365) { var m = Math.floor(diff / 30); rel = m + (m === 1 ? " month ago" : " months ago"); }
-      else { var y = Math.floor(diff / 365); rel = y + (y === 1 ? " year ago" : " years ago"); }
-      el.textContent = rel;
-    });
-  </script>
 </body>
 </html>

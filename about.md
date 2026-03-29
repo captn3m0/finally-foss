@@ -1,20 +1,26 @@
 ---
 layout: default
-title: About
+title: About Finally FOSS
 permalink: /about/
 ---
 
-## About Finally FOSS
+## What?
 
-Finally FOSS tracks source-available software as it transitions to open-source licenses.
+We track source-available software as it transitions to open-source licenses.
 
-Many projects use delayed open-source release strategies: they publish code under a source-available license (such as BSL, FSL, or FCL) that automatically converts to a recognized open-source license after a set period.
+Many projects use delayed open-source release strategies: they publish code
+under a source-available license that
+automatically converts to a recognized open-source license after a set
+period. The most popular examples are 
+[Business Source License](https://en.wikipedia.org/wiki/Business_Source_License),
+[Functional Source License](https://fsl.software/), and the
+[Fair Core License](https://fcl.dev/).
 
 This site monitors those transitions and publishes a feed of releases that have crossed the threshold into open source.
 
 ### Why?
 
-The [Fair Source Definition](https://fair.io/about/) puts some weight on "Delayed Open Source publication".
+The [Fair Source Definition](https://fair.io/about/) explains why the believe in Delayed Open Source publication:
 
 > The third point is also intended as a bright line, and a key differentiator
   of Fair Source from Open Core and other approaches. Delayed Open Source
@@ -26,7 +32,7 @@ The [Fair Source Definition](https://fair.io/about/) puts some weight on "Delaye
   direction, the community or another company can pick up and move forward.
   Will this be meaningful in practice? Again, time will tell. 
 
-This is a way to collect data towards answering that question.
+This project is a way to collect data towards answering that question.
 
 ### Licenses we track
 
