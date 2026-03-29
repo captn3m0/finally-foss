@@ -64,3 +64,7 @@ Each release is published with two [Package URL](https://github.com/package-url/
 
 - [Atom Feed](/atom.xml)
 - [GitHub Repository](https://github.com/captn3m0/finally-foss)
+
+### License
+
+Licensed under The Unlicense. See `LICENSE` file for more details.
