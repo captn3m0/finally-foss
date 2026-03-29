@@ -1,0 +1,8 @@
+name: supabase-community/seed
+repo: https://github.com/supabase-community/seed
+description: Automatically seed your database with production-like dummy data based
+  on your schema for local development and testing.
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

@@ -1,0 +1,29 @@
+name: chartbrew/chartbrew
+repo: https://github.com/chartbrew/chartbrew
+website: https://chartbrew.com
+description: Open-source reporting platform to build and share live dashboards from
+  APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable
+  charts 📈📊
+tags:
+- charts
+- nodejs
+- react
+- reactjs
+- redux
+- chartjs
+- mysql
+- postgresql
+- mongodb
+- api
+- data-visualization
+- analytics
+- mongo
+- dashboard
+- firebase
+- firestore
+- firebase-firestore
+- realtime-database
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

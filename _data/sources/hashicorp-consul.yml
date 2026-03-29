@@ -1,0 +1,19 @@
+name: hashicorp/consul
+repo: https://github.com/hashicorp/consul
+website: https://www.consul.io
+description: Consul is a distributed, highly available, and data center aware solution
+  to connect and configure applications across dynamic, distributed infrastructure.
+tags:
+- consul
+- service-mesh
+- service-discovery
+- kubernetes
+- vault
+- ecs
+- api-gateway
+ranges:
+- versions: '>= 1.16.2'
+  original_license: BUSL-1.1
+  oss_license: MPL-2.0
+  delay_yrs: 4
+  notes: Versions <= 1.16.1 remain MPL-2.0.

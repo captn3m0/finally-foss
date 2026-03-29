@@ -1,0 +1,12 @@
+name: pgxman/pgxman
+repo: https://github.com/pgxman/pgxman
+website: https://pgxman.com
+description: Developer-friendly package manager and registry for PostgreSQL extensions
+tags:
+- extension-manager
+- postgresql
+- postgresql-extension
+ranges:
+- original_license: FSL-1.0-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

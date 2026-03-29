@@ -1,0 +1,15 @@
+name: hashicorp/boundary
+repo: https://github.com/hashicorp/boundary
+website: https://boundaryproject.io
+description: Boundary enables identity-based access management for dynamic infrastructure.
+tags:
+- hashicorp
+- security
+- zero-trust
+- hacktoberfest
+ranges:
+- versions: '>= 0.13.2'
+  original_license: BUSL-1.1
+  oss_license: MPL-2.0
+  delay_yrs: 4
+  notes: Versions <= 0.13.1 remain MPL-2.0.

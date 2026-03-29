@@ -1,0 +1,13 @@
+name: loadpartner/tms
+repo: https://github.com/loadpartner/tms
+website: https://tms.loadpartner.io
+description: Open source TMS for freight brokers
+tags:
+- brokerage
+- freight
+- freight-management
+- transportation-management-system
+ranges:
+- original_license: FCL-1.0-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

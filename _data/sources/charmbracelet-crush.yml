@@ -1,0 +1,12 @@
+name: charmbracelet/crush
+repo: https://github.com/charmbracelet/crush
+description: Glamourous agentic coding for all 💘
+tags:
+- agentic-ai
+- ai
+- llms
+- ravishing
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

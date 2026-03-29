@@ -1,0 +1,17 @@
+name: nuvix-dev/nuvix
+repo: https://github.com/nuvix-dev/nuvix
+website: https://nuvix-docs.vercel.app/
+description: Open-source Firebase/Supabase alternative, with zero-trust security by
+  default.
+tags:
+- baas
+- backend
+- rest-api
+- nuvix
+- auth
+- postgres
+- stoarge
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

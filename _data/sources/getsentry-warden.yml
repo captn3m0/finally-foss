@@ -1,0 +1,10 @@
+name: getsentry/warden
+repo: https://github.com/getsentry/warden
+website: https://warden.sentry.dev
+description: Your code is under new management. Agents that review your code.
+tags:
+- tag-production
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

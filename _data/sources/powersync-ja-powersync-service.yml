@@ -1,0 +1,9 @@
+name: powersync-ja/powersync-service
+repo: https://github.com/powersync-ja/powersync-service
+website: https://docs.powersync.com/architecture/powersync-service
+description: PowerSync Service is the server-side component of the PowerSync sync
+  engine.
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

@@ -1,0 +1,15 @@
+name: DeepAuto-AI/hip-attention
+repo: https://github.com/DeepAuto-AI/hip-attention
+description: Training-free Post-training Efficient Sub-quadratic Complexity Attention.
+  Implemented with OpenAI Triton.
+tags:
+- attention
+- attention-mechanism
+- openai-triton
+- sub-quadratic-attention
+- triton
+- hip-attention
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

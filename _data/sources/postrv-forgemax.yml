@@ -1,0 +1,19 @@
+name: postrv/forgemax
+repo: https://github.com/postrv/forgemax
+description: Code Mode inspired local sandboxed MCP Gateway - collapses N servers
+  x M tools into 2 tools (~1,000 tokens)
+tags:
+- ai-agents
+- ai-tools
+- gateway
+- mcp
+- mcp-gateway
+- mcp-server
+- mcp-servers
+- mcp-tools
+- tool-calling
+- tool-use
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

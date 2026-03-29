@@ -1,0 +1,29 @@
+name: MaterializeInc/materialize
+repo: https://github.com/MaterializeInc/materialize
+website: https://materialize.com
+description: The live data layer for apps and AI agents. Create up-to-the-second views
+  into your business, just using SQL
+tags:
+- rust
+- database
+- sql
+- streaming
+- kafka
+- distributed-systems
+- postgresql-dialect
+- materialized-view
+- stream-processing
+- postgresql
+- streaming-data
+- operational-data-store
+- data-store
+- cdc
+- data-mesh
+- mysql
+- sql-server
+ranges:
+- versions: '>= 0'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 4
+  notes: Each version converts to Apache-2.0 after 4 years.

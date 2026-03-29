@@ -1,0 +1,20 @@
+name: mariadb-corporation/MaxScale
+repo: https://github.com/mariadb-corporation/MaxScale
+website: https://github.com/mariadb-corporation/MaxScale/wiki
+description: An intelligent database proxy.
+ranges:
+- versions: '>= 2.0.0, <= 2.0.4'
+  original_license: BSL-1.0
+  oss_license: GPL-2.0-or-later
+  delay_yrs: 3
+  notes: Original BSL 1.0. All now GPL.
+- versions: '>= 2.1, <= 2.4.2'
+  original_license: BUSL-1.1
+  oss_license: GPL-2.0-or-later
+  delay_yrs: 2
+  notes: 2-year delay. All now GPL.
+- versions: '>= 2.4.3, < 25.1'
+  original_license: BUSL-1.1
+  oss_license: GPL-2.0-or-later
+  delay_yrs: 3
+  notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.

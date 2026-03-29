@@ -1,0 +1,8 @@
+name: robertalv/convex-panel
+repo: https://github.com/robertalv/convex-panel
+website: https://convexpanel.dev
+description: A React component for monitoring and debugging Convex applications
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

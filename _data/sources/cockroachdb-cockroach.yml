@@ -1,0 +1,22 @@
+name: cockroachdb/cockroach
+repo: https://github.com/cockroachdb/cockroach
+website: https://www.cockroachlabs.com
+description: CockroachDB — the cloud native, distributed SQL database designed for
+  high availability, effortless scale, and control over data placement.
+tags:
+- go
+- database
+- sql
+- distributed-database
+- cockroachdb
+- hacktoberfest
+ranges:
+- versions: '>= 19.2, < 24.3'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 3
+  notes: 'Each release converts to Apache-2.0 after 3 years. Versions through v21.x
+    are already Apache-2.0. v24.3+ uses proprietary CockroachDB Software License (CSL),
+    no longer has delayed OSS conversion.
+
+    '

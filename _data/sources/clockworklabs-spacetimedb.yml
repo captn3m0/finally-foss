@@ -1,0 +1,19 @@
+name: clockworklabs/SpacetimeDB
+repo: https://github.com/clockworklabs/SpacetimeDB
+website: https://spacetimedb.com
+description: Development at the speed of light
+tags:
+- database
+- dataoriented
+- game-development
+- relational
+- relational-database
+- mmorpg-server
+- web-development
+- web-framework
+ranges:
+- versions: '>= 0'
+  original_license: BUSL-1.1
+  oss_license: AGPL-3.0
+  delay_yrs: 3
+  notes: Converts to AGPL-3.0 with a linking exception.

@@ -1,0 +1,20 @@
+name: MatsMoll/aligned
+repo: https://github.com/MatsMoll/aligned
+website: https://www.aligned.codes
+description: The DBT of ML, as Aligned describes data dependencies in ML systems,
+  and reduce technical data debt
+tags:
+- ai
+- feature-engineering
+- feature-store
+- ml
+- mlops
+- dbt
+- data-contracts
+- datacontracts
+- ml-ops
+- data-lake
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

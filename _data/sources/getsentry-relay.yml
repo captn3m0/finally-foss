@@ -1,0 +1,10 @@
+name: getsentry/relay
+repo: https://github.com/getsentry/relay
+website: https://docs.sentry.io/product/relay/
+description: Sentry event forwarding and ingestion service.
+tags:
+- tag-production
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

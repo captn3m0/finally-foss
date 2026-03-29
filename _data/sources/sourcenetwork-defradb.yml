@@ -1,0 +1,27 @@
+name: sourcenetwork/defradb
+repo: https://github.com/sourcenetwork/defradb
+website: https://docs.source.network/defradb
+description: DefraDB is a Peer-to-Peer Edge-First Database. It's the core data storage
+  system for the Source Ecosystem, built with IPLD, LibP2P, CRDTs, and Semantic open
+  web properties.
+tags:
+- database
+- crdt
+- nosql
+- documentdb
+- peer-to-peer
+- distributed
+- linked-data
+- graphql
+- semantic-web
+- edge-compute
+- local-first-software
+- edge-ai
+- edge-first
+ranges:
+- versions: '>= 0'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 4
+  notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
+    Hub Mainnet.

@@ -1,0 +1,43 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/" rel="alternate" type="text/html"/>
+  <id>{{ site.url }}{{ site.baseurl }}/</id>
+  {% assign releases = site.data.releases | sort: "release_date" | reverse %}
+  {% if releases.size > 0 %}
+  <updated>{{ releases[0].release_date }}T00:00:00Z</updated>
+  {% endif %}
+  <author>
+    <name>{{ site.title }}</name>
+  </author>
+  {% for entry in releases limit:50 %}
+  {% assign github_purl = entry.identifiers[0] %}
+  {% assign org_repo = github_purl | remove: "pkg:github/" | split: "@" | first %}
+  {% assign tag = github_purl | split: "@" | last %}
+  <entry>
+    <title>{{ org_repo }} {{ tag }} is now open-source ({{ entry.license }})</title>
+    <link href="https://github.com/{{ org_repo }}/releases/tag/{{ tag }}" rel="alternate" type="text/html"/>
+    <id>{{ github_purl }}</id>
+    <published>{{ entry.release_date }}T00:00:00Z</published>
+    <updated>{{ entry.release_date }}T00:00:00Z</updated>
+    <summary>{{ org_repo }} {{ tag }} transitioned from {{ entry.original_license }} to {{ entry.license }} after a {{ entry.delay_yrs }}-year delay. The source is available on GitHub at https://github.com/{{ org_repo }}.</summary>
+    {% for tag_name in entry.tags %}<category term="{{ tag_name }}"/>
+    {% endfor %}<content type="html"><![CDATA[
+      {% if entry.description %}<p>{{ entry.description }}{% if entry.website %} — <a href="{{ entry.website }}">{{ entry.website }}</a>{% endif %}</p>{% endif %}
+      <p><a href="https://github.com/{{ org_repo }}/releases/tag/{{ tag }}">{{ org_repo }}</a> <code>{{ tag }}</code> transitioned from {{ entry.original_license }} to <strong>{{ entry.license }}</strong> after a {{ entry.delay_yrs }}-year delay, as of {{ entry.release_date }}.</p>
+      <p>The source is available on <a href="https://github.com/{{ org_repo }}">GitHub</a>.</p>
+      {% if entry.notes %}<p><em>{{ entry.notes }}</em></p>{% endif %}
+      <p>Identifiers:</p>
+      <ul>
+        {% for purl in entry.identifiers %}<li><code>{{ purl }}</code></li>
+        {% endfor %}
+      </ul>
+    ]]></content>
+  </entry>
+  {% endfor %}
+</feed>

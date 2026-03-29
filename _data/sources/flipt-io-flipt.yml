@@ -1,0 +1,26 @@
+name: flipt-io/flipt
+repo: https://github.com/flipt-io/flipt
+website: https://flipt.io
+description: Enterprise-ready, Git native feature management solution
+tags:
+- go
+- feature-flags
+- golang
+- continuous-delivery
+- feature-toggles
+- grpc
+- react
+- devops
+- devtools
+- observability
+- opentelemetry
+- typescript
+- gitops
+- grpc-gateway
+- cloudnative
+- hacktoberfest
+- redux
+ranges:
+- original_license: FCL-1.0-MIT
+  oss_license: MIT
+  delay_yrs: 2

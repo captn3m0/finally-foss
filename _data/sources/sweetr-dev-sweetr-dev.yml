@@ -1,0 +1,18 @@
+name: sweetr-dev/sweetr.dev
+repo: https://github.com/sweetr-dev/sweetr.dev
+website: https://sweetr.dev
+description: The open platform for engineering performance++
+tags:
+- cto
+- devops
+- dora
+- dx
+- git
+- leadership
+- metrics
+- notifications
+- slack
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

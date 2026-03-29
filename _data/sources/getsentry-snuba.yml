@@ -1,0 +1,9 @@
+name: getsentry/snuba
+repo: https://github.com/getsentry/snuba
+description: Search the seas for your lost treasure.
+tags:
+- tag-production
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

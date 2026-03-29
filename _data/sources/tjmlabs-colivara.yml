@@ -1,0 +1,12 @@
+name: tjmlabs/ColiVara
+repo: https://github.com/tjmlabs/ColiVara
+website: https://colivara.com
+description: Colivara is a suite of services that allows you to store, search, and
+  retrieve documents based on their visual embedding. ColiVara has state of the art
+  retrieval performance on both text and visual documents. using vision models instead
+  of chunking and text-processing for documents. No OCR, no text extraction, no broken
+  tables, or missing images.
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

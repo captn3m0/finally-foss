@@ -1,0 +1,974 @@
+# Finally-FOSS: Projects with delayed open-source clauses (BSL, FSL, FCL)
+#
+# Each entry tracks a project using a source-available license that converts
+# to an OSS license after a delay period. The `ranges` list captures multiple
+# licensing windows — a project may have changed delay periods, license
+# versions, or even reverted to proprietary for later releases.
+#
+# Fields:
+#   name:             org/repo or project identifier
+#   repo:             primary source code URL
+#   stars:            approximate star count (at time of data collection)
+#   ranges[]:
+#     versions:       Gem::Requirement-compatible version constraint (e.g. ">= 2.1, < 24.3")
+#     original_license: SPDX identifier of the source-available license
+#     oss_license:    the OSS license it converts to
+#     delay_yrs:      years until conversion to OSS
+#     notes:          (optional) additional context
+#
+# Data sources:
+#   - FSL/FCL: github.com/fairsource/fss.cool (repos with 50+ stars)
+#   - BSL: manual research from project announcements and LICENSE files
+
+# =============================================================================
+# Business Source License (BUSL-1.1) projects
+# =============================================================================
+
+# --- MariaDB MaxScale ---
+# Original BSL creator. MaxScale 25.01+ went proprietary.
+- name: "mariadb-corporation/MaxScale"
+  repo: https://github.com/mariadb-corporation/MaxScale
+  stars: 1400
+  ranges:
+    - versions: ">= 2.0.0, <= 2.0.4"
+      original_license: BSL-1.0
+      oss_license: GPL-2.0-or-later
+      delay_yrs: 3
+      notes: "Original BSL 1.0. All now GPL."
+    - versions: ">= 2.1, <= 2.4.2"
+      original_license: BUSL-1.1
+      oss_license: GPL-2.0-or-later
+      delay_yrs: 2
+      notes: "2-year delay. All now GPL."
+    - versions: ">= 2.4.3, < 25.1"
+      original_license: BUSL-1.1
+      oss_license: GPL-2.0-or-later
+      delay_yrs: 3
+      notes: "3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary."
+
+# --- HashiCorp products (all switched from MPL-2.0 to BUSL-1.1 in Aug 2023) ---
+# Last MPL versions: Terraform 1.5.5, Vault 1.14.1, Consul 1.16.1,
+# Nomad 1.6.1, Packer 1.9.2, Boundary 0.13.1, Waypoint 0.11.4, Vagrant 2.3.7
+- name: "hashicorp/terraform"
+  repo: https://github.com/hashicorp/terraform
+  stars: 43900
+  ranges:
+    - versions: ">= 1.5.6"
+      original_license: BUSL-1.1
+      oss_license: MPL-2.0
+      delay_yrs: 4
+      notes: "Versions <= 1.5.5 remain MPL-2.0. OpenTofu forked from last MPL release."
+
+- name: "hashicorp/vault"
+  repo: https://github.com/hashicorp/vault
+  stars: 31600
+  ranges:
+    - versions: ">= 1.14.2"
+      original_license: BUSL-1.1
+      oss_license: MPL-2.0
+      delay_yrs: 4
+      notes: "Versions <= 1.14.1 remain MPL-2.0. OpenBao forked from last MPL release."
+
+- name: "hashicorp/consul"
+  repo: https://github.com/hashicorp/consul
+  stars: 28600
+  ranges:
+    - versions: ">= 1.16.2"
+      original_license: BUSL-1.1
+      oss_license: MPL-2.0
+      delay_yrs: 4
+      notes: "Versions <= 1.16.1 remain MPL-2.0."
+
+- name: "hashicorp/nomad"
+  repo: https://github.com/hashicorp/nomad
+  stars: 15100
+  ranges:
+    - versions: ">= 1.6.2"
+      original_license: BUSL-1.1
+      oss_license: MPL-2.0
+      delay_yrs: 4
+      notes: "Versions <= 1.6.1 remain MPL-2.0."
+
+- name: "hashicorp/packer"
+  repo: https://github.com/hashicorp/packer
+  stars: 15200
+  ranges:
+    - versions: ">= 1.9.3"
+      original_license: BUSL-1.1
+      oss_license: MPL-2.0
+      delay_yrs: 4
+      notes: "Versions <= 1.9.2 remain MPL-2.0."
+
+- name: "hashicorp/vagrant"
+  repo: https://github.com/hashicorp/vagrant
+  stars: 26400
+  ranges:
+    - versions: ">= 2.3.8"
+      original_license: BUSL-1.1
+      oss_license: MPL-2.0
+      delay_yrs: 4
+      notes: "Versions <= 2.3.7 remain MPL-2.0."
+
+- name: "hashicorp/boundary"
+  repo: https://github.com/hashicorp/boundary
+  stars: 3900
+  ranges:
+    - versions: ">= 0.13.2"
+      original_license: BUSL-1.1
+      oss_license: MPL-2.0
+      delay_yrs: 4
+      notes: "Versions <= 0.13.1 remain MPL-2.0."
+
+- name: "hashicorp/waypoint"
+  repo: https://github.com/hashicorp/waypoint
+  stars: 5100
+  ranges:
+    - versions: ">= 0.11.5"
+      original_license: BUSL-1.1
+      oss_license: MPL-2.0
+      delay_yrs: 4
+      notes: "Versions <= 0.11.4 remain MPL-2.0."
+
+# --- CockroachDB ---
+# BSL from v19.2 (2019) through v24.2. v24.3+ switched to proprietary CSL (Nov 2024).
+- name: "cockroachdb/cockroach"
+  repo: https://github.com/cockroachdb/cockroach
+  stars: 30300
+  ranges:
+    - versions: ">= 19.2, < 24.3"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 3
+      notes: >
+        Each release converts to Apache-2.0 after 3 years. Versions through
+        v21.x are already Apache-2.0. v24.3+ uses proprietary CockroachDB
+        Software License (CSL), no longer has delayed OSS conversion.
+
+# --- Akka (Lightbend) ---
+- name: "akka/akka"
+  repo: https://github.com/akka/akka
+  stars: 13100
+  ranges:
+    - versions: ">= 2.7"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 3
+      notes: >
+        Versions <= 2.6.x remain Apache-2.0. Apache Pekko forked from 2.6.x.
+        Revenue threshold: businesses with >$25M annual revenue need commercial license.
+
+# --- SurrealDB ---
+- name: "surrealdb/surrealdb"
+  repo: https://github.com/surrealdb/surrealdb
+  stars: 28500
+  ranges:
+    - versions: ">= 1.0"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 4
+      notes: "Restriction: cannot offer SurrealDB as a commercial DBaaS."
+
+# --- Materialize ---
+- name: "MaterializeInc/materialize"
+  repo: https://github.com/MaterializeInc/materialize
+  stars: 5800
+  ranges:
+    - versions: ">= 0"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 4
+      notes: "Each version converts to Apache-2.0 after 4 years."
+
+# --- Redpanda ---
+- name: "redpanda-data/redpanda"
+  repo: https://github.com/redpanda-data/redpanda
+  stars: 9800
+  ranges:
+    - versions: ">= 0"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 4
+      notes: "Each version converts to Apache-2.0 after 4 years. Restriction: cannot offer as commercial streaming service."
+
+# --- ArangoDB ---
+- name: "arangodb/arangodb"
+  repo: https://github.com/arangodb/arangodb
+  stars: 13800
+  ranges:
+    - versions: ">= 3.12"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 4
+      notes: "Versions <= 3.11 remain Apache-2.0. Dataset size limit of 100 GiB for community use."
+
+# --- Couchbase ---
+- name: "couchbase/couchbase-server"
+  repo: https://github.com/couchbase/manifest
+  stars: 300
+  ranges:
+    - versions: ">= 7.0"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 4
+      notes: "Switched from Apache-2.0 to BSL in 2021. Mobile SDKs also under BSL."
+
+# --- Uniswap V3 ---
+- name: "Uniswap/v3-core"
+  repo: https://github.com/Uniswap/v3-core
+  stars: 4500
+  ranges:
+    - versions: "~> 3.0"
+      original_license: BUSL-1.1
+      oss_license: GPL-2.0-or-later
+      delay_yrs: 2
+      notes: "BSL expired April 1, 2023. Now fully GPL-2.0+."
+
+# --- Directus ---
+- name: "directus/directus"
+  repo: https://github.com/directus/directus
+  stars: 29500
+  ranges:
+    - versions: ">= 10.0.0"
+      original_license: BUSL-1.1
+      oss_license: GPL-3.0
+      delay_yrs: 3
+      notes: "Versions <= 9.x remain GPL-3.0."
+
+# --- dotCMS ---
+- name: "dotCMS/core"
+  repo: https://github.com/dotCMS/core
+  stars: 850
+  ranges:
+    - versions: ">= 0"
+      original_license: BUSL-1.1
+      oss_license: GPL-3.0
+      delay_yrs: 4
+      notes: "BSL applies to versions released after Feb 14, 2025."
+
+# --- SpacetimeDB ---
+- name: "clockworklabs/SpacetimeDB"
+  repo: https://github.com/clockworklabs/SpacetimeDB
+  stars: 5200
+  ranges:
+    - versions: ">= 0"
+      original_license: BUSL-1.1
+      oss_license: AGPL-3.0
+      delay_yrs: 3
+      notes: "Converts to AGPL-3.0 with a linking exception."
+
+# --- Source Network DefraDB ---
+- name: "sourcenetwork/defradb"
+  repo: https://github.com/sourcenetwork/defradb
+  stars: 650
+  ranges:
+    - versions: ">= 0"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 4
+      notes: "Switched from Apache-2.0 to BSL. Production use allowed if connected to Source Hub Mainnet."
+
+# --- EMQX ---
+- name: "emqx/emqx"
+  repo: https://github.com/emqx/emqx
+  stars: 25600
+  ranges:
+    - versions: ">= 5.8.9"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 4
+      notes: "Versions <= 5.8.8 remain Apache-2.0."
+
+# =============================================================================
+# Functional Source License (FSL) and Fair Core License (FCL) projects
+# Source: github.com/fairsource/fss.cool (repos with >= 50 stars)
+# FSL always has a 2-year delay. FCL also has a 2-year delay.
+# =============================================================================
+
+- name: "getsentry/sentry"
+  repo: https://github.com/getsentry/sentry
+  stars: 43279
+  ranges:
+    - versions: ">= 10.0.0, < 23.11.0"
+      original_license: BUSL-1.1
+      oss_license: Apache-2.0
+      delay_yrs: 3
+      notes: "BSL adopted Nov 2019 (first BSL release: 10.0.0). Versions <= 9.1.2 remain Apache-2.0."
+    - versions: ">= 23.11.0"
+      original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+      notes: "Switched from BSL to FSL in Nov 2023 starting with 23.11.0."
+
+- name: "charmbracelet/crush"
+  repo: https://github.com/charmbracelet/crush
+  stars: 20951
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "dyad-sh/dyad"
+  repo: https://github.com/dyad-sh/dyad
+  stars: 19814
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "gitbutlerapp/gitbutler"
+  repo: https://github.com/gitbutlerapp/gitbutler
+  stars: 19776
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "get-convex/convex-backend"
+  repo: https://github.com/get-convex/convex-backend
+  stars: 10689
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "getsentry/self-hosted"
+  repo: https://github.com/getsentry/self-hosted
+  stars: 9207
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "tuist/tuist"
+  repo: https://github.com/tuist/tuist
+  stars: 5565
+  ranges:
+    - original_license: FCL-1.0-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "liquibase/liquibase"
+  repo: https://github.com/liquibase/liquibase
+  stars: 5443
+  ranges:
+    - versions: ">= 5.0"
+      original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+      notes: "Versions <= 4.x remain Apache-2.0."
+
+- name: "flipt-io/flipt"
+  repo: https://github.com/flipt-io/flipt
+  stars: 4730
+  ranges:
+    - original_license: FCL-1.0-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "chartbrew/chartbrew"
+  repo: https://github.com/chartbrew/chartbrew
+  stars: 3668
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "sourcebot-dev/sourcebot"
+  repo: https://github.com/sourcebot-dev/sourcebot
+  stars: 3129
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "johnkorzhuk/grabient"
+  repo: https://github.com/johnkorzhuk/grabient
+  stars: 2007
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "superglue-ai/superglue"
+  repo: https://github.com/superglue-ai/superglue
+  stars: 1990
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "treadiehq/port-kill"
+  repo: https://github.com/treadiehq/port-kill
+  stars: 1917
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "opral/inlang"
+  repo: https://github.com/opral/inlang
+  stars: 1810
+  ranges:
+    - original_license: FCL-1.0-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "spacedriveapp/spacebot"
+  repo: https://github.com/spacedriveapp/spacebot
+  stars: 1591
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "TraceMachina/nativelink"
+  repo: https://github.com/TraceMachina/nativelink
+  stars: 1492
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "tjmlabs/ColiVara"
+  repo: https://github.com/tjmlabs/ColiVara
+  stars: 1454
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "raghavyuva/nixopus"
+  repo: https://github.com/raghavyuva/nixopus
+  stars: 1386
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "saleor/storefront"
+  repo: https://github.com/saleor/storefront
+  stars: 1370
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "keygen-sh/keygen-api"
+  repo: https://github.com/keygen-sh/keygen-api
+  stars: 1352
+  ranges:
+    - original_license: FCL-1.0-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "getsentry/sentry-cli"
+  repo: https://github.com/getsentry/sentry-cli
+  stars: 984
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "getcellm/cellm"
+  repo: https://github.com/getcellm/cellm
+  stars: 918
+  ranges:
+    - original_license: FCL-1.0-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "generaltranslation/gt"
+  repo: https://github.com/generaltranslation/gt
+  stars: 847
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "supabase-community/seed"
+  repo: https://github.com/supabase-community/seed
+  stars: 767
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "billabear/billabear"
+  repo: https://github.com/billabear/billabear
+  stars: 736
+  ranges:
+    - original_license: FCL-1.0-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "lokus-ai/lokus"
+  repo: https://github.com/lokus-ai/lokus
+  stars: 620
+  ranges:
+    - original_license: FCL-1.0-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "HazelChat/hazel"
+  repo: https://github.com/HazelChat/hazel
+  stars: 591
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "monetr/monetr"
+  repo: https://github.com/monetr/monetr
+  stars: 588
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "getsentry/sentry-mcp"
+  repo: https://github.com/getsentry/sentry-mcp
+  stars: 585
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "taskgenius/taskgenius-plugin"
+  repo: https://github.com/taskgenius/taskgenius-plugin
+  stars: 525
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "codecov/self-hosted"
+  repo: https://github.com/codecov/self-hosted
+  stars: 522
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "ZeroLeaks/zeroleaks"
+  repo: https://github.com/ZeroLeaks/zeroleaks
+  stars: 507
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "vltpkg/vltpkg"
+  repo: https://github.com/vltpkg/vltpkg
+  stars: 489
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "treadiehq/gpu-kill"
+  repo: https://github.com/treadiehq/gpu-kill
+  stars: 455
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "supabitapp/supacode"
+  repo: https://github.com/supabitapp/supacode
+  stars: 448
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "getsentry/sentry-docs"
+  repo: https://github.com/getsentry/sentry-docs
+  stars: 416
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "getsentry/symbolicator"
+  repo: https://github.com/getsentry/symbolicator
+  stars: 412
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "MindWorkAI/AI-Studio"
+  repo: https://github.com/MindWorkAI/AI-Studio
+  stars: 408
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "getsentry/snuba"
+  repo: https://github.com/getsentry/snuba
+  stars: 393
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "cronitorio/cronitor-cli"
+  repo: https://github.com/cronitorio/cronitor-cli
+  stars: 379
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "getsentry/relay"
+  repo: https://github.com/getsentry/relay
+  stars: 364
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "damoeb/feedless"
+  repo: https://github.com/damoeb/feedless
+  stars: 357
+  ranges:
+    - original_license: FSL-1.0-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "powersync-ja/powersync-service"
+  repo: https://github.com/powersync-ja/powersync-service
+  stars: 317
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "OloApps/ReqRes"
+  repo: https://github.com/OloApps/ReqRes
+  stars: 316
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "supabase-community/snapshot"
+  repo: https://github.com/supabase-community/snapshot
+  stars: 316
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "getsentry/sentry-wizard"
+  repo: https://github.com/getsentry/sentry-wizard
+  stars: 278
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "vltpkg/vsr"
+  repo: https://github.com/vltpkg/vsr
+  stars: 238
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "Burla-Cloud/burla"
+  repo: https://github.com/Burla-Cloud/burla
+  stars: 234
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "pgxman/pgxman"
+  repo: https://github.com/pgxman/pgxman
+  stars: 230
+  ranges:
+    - original_license: FSL-1.0-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "ptah-sh/ptah-server"
+  repo: https://github.com/ptah-sh/ptah-server
+  stars: 230
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "safe-global/safe-transaction-service"
+  repo: https://github.com/safe-global/safe-transaction-service
+  stars: 227
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "Quorafind/Outliner.MD"
+  repo: https://github.com/Quorafind/Outliner.MD
+  stars: 217
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "metorial/metorial-platform"
+  repo: https://github.com/metorial/metorial-platform
+  stars: 203
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "Makisuo/maple"
+  repo: https://github.com/Makisuo/maple
+  stars: 184
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "overmindtech/cli"
+  repo: https://github.com/overmindtech/cli
+  stars: 182
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "1fpsvideo/1fps"
+  repo: https://github.com/1fpsvideo/1fps
+  stars: 181
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "epanet-js/epanet-js"
+  repo: https://github.com/epanet-js/epanet-js
+  stars: 176
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "DeepAuto-AI/hip-attention"
+  repo: https://github.com/DeepAuto-AI/hip-attention
+  stars: 150
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "sweetr-dev/sweetr.dev"
+  repo: https://github.com/sweetr-dev/sweetr.dev
+  stars: 138
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "postrv/forgemax"
+  repo: https://github.com/postrv/forgemax
+  stars: 134
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "nuvix-dev/nuvix"
+  repo: https://github.com/nuvix-dev/nuvix
+  stars: 130
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "okio-ai/nendo-platform"
+  repo: https://github.com/okio-ai/nendo-platform
+  stars: 129
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "sohzm/wisk"
+  repo: https://github.com/sohzm/wisk
+  stars: 125
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "vyuh-tech/vyuh"
+  repo: https://github.com/vyuh-tech/vyuh
+  stars: 122
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "codecrafters-io/frontend"
+  repo: https://github.com/codecrafters-io/frontend
+  stars: 111
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "getsentry/warden"
+  repo: https://github.com/getsentry/warden
+  stars: 108
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "legacy-use/legacy-use"
+  repo: https://github.com/legacy-use/legacy-use
+  stars: 105
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "Siege-Perilous/tableslayer"
+  repo: https://github.com/Siege-Perilous/tableslayer
+  stars: 101
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "TheBushidoCollective/han"
+  repo: https://github.com/TheBushidoCollective/han
+  stars: 101
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "treadiehq/securelog"
+  repo: https://github.com/treadiehq/securelog
+  stars: 99
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "Egodystonic/TinyFFR"
+  repo: https://github.com/Egodystonic/TinyFFR
+  stars: 98
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "tadpolehq/tadpole"
+  repo: https://github.com/tadpolehq/tadpole
+  stars: 97
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "synth-laboratories/Horizons"
+  repo: https://github.com/synth-laboratories/Horizons
+  stars: 74
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "gvkhna/vibescraper"
+  repo: https://github.com/gvkhna/vibescraper
+  stars: 72
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "GordonBeeming/copilot_here"
+  repo: https://github.com/GordonBeeming/copilot_here
+  stars: 70
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "liquibase/docker"
+  repo: https://github.com/liquibase/docker
+  stars: 67
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "robertalv/convex-panel"
+  repo: https://github.com/robertalv/convex-panel
+  stars: 63
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "Kyle-Ye/MenuHelper"
+  repo: https://github.com/Kyle-Ye/MenuHelper
+  stars: 62
+  ranges:
+    - original_license: FSL-1.1-MIT
+      oss_license: MIT
+      delay_yrs: 2
+
+- name: "MatsMoll/aligned"
+  repo: https://github.com/MatsMoll/aligned
+  stars: 60
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "codecov/gazebo"
+  repo: https://github.com/codecov/gazebo
+  stars: 57
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "liquibase/liquibase-cassandra"
+  repo: https://github.com/liquibase/liquibase-cassandra
+  stars: 54
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "pureblazor/components"
+  repo: https://github.com/pureblazor/components
+  stars: 54
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "loadpartner/tms"
+  repo: https://github.com/loadpartner/tms
+  stars: 53
+  ranges:
+    - original_license: FCL-1.0-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2
+
+- name: "liquibase/liquibase-oracle"
+  repo: https://github.com/liquibase/liquibase-oracle
+  stars: 52
+  ranges:
+    - original_license: FSL-1.1-ALv2
+      oss_license: Apache-2.0
+      delay_yrs: 2

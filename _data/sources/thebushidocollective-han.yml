@@ -1,0 +1,9 @@
+name: TheBushidoCollective/han
+repo: https://github.com/TheBushidoCollective/han
+website: https://han.guru
+description: A curated marketplace of Claude Code plugins that embody the principles
+  of ethical and professional software development.
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

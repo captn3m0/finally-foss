@@ -1,0 +1,8 @@
+name: GordonBeeming/copilot_here
+repo: https://github.com/GordonBeeming/copilot_here
+website: https://copilot_here.gordonbeeming.com
+description: A Secure, Portable Copilot CLI Environment
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

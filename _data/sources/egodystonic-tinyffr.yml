@@ -1,0 +1,12 @@
+name: Egodystonic/TinyFFR
+repo: https://github.com/Egodystonic/TinyFFR
+website: https://tinyffr.dev
+description: High-level realtime 3D .NET library
+tags:
+- csharp
+- dotnet
+- rendering-3d-graphics
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

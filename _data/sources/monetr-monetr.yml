@@ -1,0 +1,22 @@
+name: monetr/monetr
+repo: https://github.com/monetr/monetr
+website: https://monetr.app
+description: monetr is a budgeting application focused on planning for recurring expenses.
+tags:
+- budgeting
+- plaid
+- finance-management
+- golang
+- react
+- finance
+- financial-independence
+- financial-planning
+- open-finance
+- expense-tracker
+- budget
+- budget-app
+- budget-tool
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

@@ -1,0 +1,32 @@
+name: getsentry/sentry
+repo: https://github.com/getsentry/sentry
+website: https://sentry.io
+description: Developer-first error tracking and performance monitoring
+tags:
+- crash-reporting
+- crash-reports
+- error-monitoring
+- monitoring
+- devops
+- csp-report
+- django
+- error-logging
+- sentry
+- python
+- monitor
+- apm
+- hacktoberfest
+- tag-production
+- fair-source
+ranges:
+- versions: '>= 10.0.0, < 23.11.0'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 3
+  notes: 'BSL adopted Nov 2019 (first BSL release: 10.0.0). Versions <= 9.1.2 remain
+    Apache-2.0.'
+- versions: '>= 23.11.0'
+  original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2
+  notes: Switched from BSL to FSL in Nov 2023 starting with 23.11.0.

@@ -1,0 +1,8 @@
+name: treadiehq/gpu-kill
+repo: https://github.com/treadiehq/gpu-kill
+website: https://gpukill.com
+description: Manage your GPUs across NVIDIA, AMD, Intel, and Apple Silicon systems.
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

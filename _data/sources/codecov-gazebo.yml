@@ -1,0 +1,15 @@
+name: codecov/gazebo
+repo: https://github.com/codecov/gazebo
+website: https://app.codecov.io/login
+description: React SPA
+tags:
+- codecov
+- fair-source
+- react
+- test-coverage
+- typescript
+- vite
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

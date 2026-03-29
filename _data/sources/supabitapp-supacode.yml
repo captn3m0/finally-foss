@@ -1,0 +1,8 @@
+name: supabitapp/supacode
+repo: https://github.com/supabitapp/supacode
+website: https://supacode.sh
+description: worktree coding agents command center.
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

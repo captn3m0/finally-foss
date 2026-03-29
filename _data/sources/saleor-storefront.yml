@@ -1,0 +1,29 @@
+name: saleor/storefront
+repo: https://github.com/saleor/storefront
+website: https://storefront.saleor.io
+description: Saleor Storefront built using React, Next.js with App Router, TypeScript,
+  GraphQL, and Tailwind CSS.
+tags:
+- open-source
+- e-commerce
+- react
+- nextjs
+- ecommerce
+- typescript
+- graphql
+- tailwindcss
+- react-storefront
+- nextjs-storefront
+- nextjs-commerce
+- hacktoberfest
+- checkout
+- saleor
+- saleor-checkout
+- saleor-storefront
+- cart
+- headless
+- cache-components
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

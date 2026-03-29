@@ -1,0 +1,10 @@
+name: getsentry/symbolicator
+repo: https://github.com/getsentry/symbolicator
+website: https://getsentry.github.io/symbolicator/
+description: Native Symbolication as a Service
+tags:
+- tag-production
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

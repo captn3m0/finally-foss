@@ -1,0 +1,13 @@
+name: MindWorkAI/AI-Studio
+repo: https://github.com/MindWorkAI/AI-Studio
+website: https://MindWorkAI.org/
+description: MindWork AI Studio is a free, independent cross-platform desktop app
+  for local and cloud LLMs across providers, built to democratize AI access.
+tags:
+- ai-assistant
+- business
+- llm
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

@@ -1,0 +1,23 @@
+name: arangodb/arangodb
+repo: https://github.com/arangodb/arangodb
+website: https://www.arangodb.com
+description: 🥑 ArangoDB is a native multi-model database with flexible data models
+  for documents, graphs, and key-values. Build high performance applications using
+  a convenient SQL-like query language or JavaScript extensions.
+tags:
+- multi-model
+- graph-database
+- document-database
+- key-value
+- database
+- distributed-database
+- arangodb
+- nosql
+- graphdb
+ranges:
+- versions: '>= 3.12'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 4
+  notes: Versions <= 3.11 remain Apache-2.0. Dataset size limit of 100 GiB for community
+    use.

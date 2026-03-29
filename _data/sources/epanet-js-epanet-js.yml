@@ -1,0 +1,9 @@
+name: epanet-js/epanet-js
+repo: https://github.com/epanet-js/epanet-js
+website: https://epanetjs.com
+description: 'epanet-js: EPANET in your browser — start water modeling now, no download
+  required'
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

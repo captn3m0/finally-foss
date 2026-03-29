@@ -1,0 +1,14 @@
+name: taskgenius/taskgenius-plugin
+repo: https://github.com/taskgenius/taskgenius-plugin
+website: https://taskgenius.md
+description: Comprehensive task management plugin for Obsidian
+tags:
+- obsidian
+- obsidian-md
+- obsidian-plugin
+- task-management
+- task-manager
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

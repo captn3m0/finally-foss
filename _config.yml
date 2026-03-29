@@ -1,0 +1,13 @@
+title: Finally FOSS
+description: >-
+  Tracking source-available software as it transitions to open-source licenses.
+baseurl: "/finally-foss"
+url: "https://captnemo.in"
+
+exclude:
+  - src/
+  - pyproject.toml
+  - uv.lock
+  - .venv/
+  - "*.py"
+  - release-data

@@ -1,0 +1,21 @@
+name: billabear/billabear
+repo: https://github.com/billabear/billabear
+website: https://billabear.com
+description: Subscription Management and Billing System
+tags:
+- billing
+- billing-system
+- generator
+- invoice-generator
+- parthenon
+- receipt
+- rest-api
+- saas
+- stripe
+- stripe-billing
+- subscription
+- subscription-management
+ranges:
+- original_license: FCL-1.0-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

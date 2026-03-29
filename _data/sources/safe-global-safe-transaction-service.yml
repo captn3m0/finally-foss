@@ -1,0 +1,14 @@
+name: safe-global/safe-transaction-service
+repo: https://github.com/safe-global/safe-transaction-service
+description: Keeps track of transactions sent via Safe contacts and confirmed transactions.
+  It also keeps track of Ether and ERC20 token transfers to Safe contracts.
+tags:
+- ethereum
+- gnosis
+- gnosis-safe
+- multisig
+- backend
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

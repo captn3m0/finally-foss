@@ -1,0 +1,17 @@
+name: overmindtech/cli
+repo: https://github.com/overmindtech/cli
+website: https://overmind.tech/
+description: Identify the blast radius and risks for Terraform changes in real time
+tags:
+- aws
+- kubernetes
+- terraform
+- terraform-aws
+- terraform-kubernetes
+- visualisation
+- visualization
+- blast-radius
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

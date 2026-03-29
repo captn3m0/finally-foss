@@ -1,0 +1,16 @@
+name: vltpkg/vltpkg
+repo: https://github.com/vltpkg/vltpkg
+website: https://vlt.sh
+description: the vlt monorepo
+tags:
+- javascript
+- nodejs
+- package-manager
+- vlt
+- cli
+- monorepo
+- package
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

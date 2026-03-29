@@ -1,0 +1,7 @@
+name: treadiehq/securelog
+repo: https://github.com/treadiehq/securelog
+description: Detects and prevents leaking secrets and API tokens into your logs.
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

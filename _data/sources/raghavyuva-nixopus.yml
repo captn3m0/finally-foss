@@ -1,0 +1,24 @@
+name: raghavyuva/nixopus
+repo: https://github.com/raghavyuva/nixopus
+website: https://nixopus.com
+description: Open Source Alternative to vercel, heroku, netlify with simplified workflows
+tags:
+- heroku
+- netlify
+- self-hosted
+- vercel
+- vps
+- ci-cd
+- deployment
+- golang
+- nextjs
+- typescript
+- file-manager
+- terminal
+- vps-server
+- coolify
+- homelab
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

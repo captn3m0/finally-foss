@@ -1,0 +1,15 @@
+name: hashicorp/vagrant
+repo: https://github.com/hashicorp/vagrant
+website: https://www.vagrantup.com
+description: Vagrant is a tool for building and distributing development environments.
+tags:
+- vagrant
+- ruby
+- automation
+- virtualization
+ranges:
+- versions: '>= 2.3.8'
+  original_license: BUSL-1.1
+  oss_license: MPL-2.0
+  delay_yrs: 4
+  notes: Versions <= 2.3.7 remain MPL-2.0.

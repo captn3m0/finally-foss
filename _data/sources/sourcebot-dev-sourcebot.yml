@@ -1,0 +1,14 @@
+name: sourcebot-dev/sourcebot
+repo: https://github.com/sourcebot-dev/sourcebot
+website: https://sourcebot.dev
+description: Sourcebot is a self-hosted tool that helps developers and agents understand
+  your codebase.
+tags:
+- code-search
+- code-intelligence
+- sourcebot
+- fair-source
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

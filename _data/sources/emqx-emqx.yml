@@ -1,0 +1,32 @@
+name: emqx/emqx
+repo: https://github.com/emqx/emqx
+website: https://www.emqx.com
+description: The most scalable and reliable MQTT broker for AI, IoT, IIoT and connected
+  vehicles
+tags:
+- mqtt
+- iot
+- mqtt-broker
+- erlang
+- iot-middleware
+- broker
+- m2m
+- pubsub
+- messaging
+- coap
+- lorawan
+- mqtt-server
+- emqx
+- manufacturing
+- mqtt-protocol
+- industry-40
+- message-queue
+- aiot
+- iiot
+- lwm2m
+ranges:
+- versions: '>= 5.8.9'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 4
+  notes: Versions <= 5.8.8 remain Apache-2.0.

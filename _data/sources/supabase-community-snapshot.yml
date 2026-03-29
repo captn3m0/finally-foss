@@ -1,0 +1,13 @@
+name: supabase-community/snapshot
+repo: https://github.com/supabase-community/snapshot
+website: https://snapshot-six.vercel.app
+description: Capture a snapshot (or subset) of your Postgres database whilst transforming
+  the data.
+tags:
+- postgres
+- snapshot
+- subset
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

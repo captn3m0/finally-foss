@@ -1,0 +1,16 @@
+name: spacedriveapp/spacebot
+repo: https://github.com/spacedriveapp/spacebot
+website: https://spacebot.sh
+description: An AI agent for teams, communities, and multi-user environments.
+tags:
+- agent
+- ai
+- agentic
+- automation
+- enterprise
+- messaging
+- developer-tools
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

@@ -1,0 +1,19 @@
+name: vltpkg/vsr
+repo: https://github.com/vltpkg/vsr
+website: https://www.vlt.sh/serverless-registry
+description: a minimal npm-compatible package registry
+tags:
+- bun
+- cloudflare
+- javascript
+- nodejs
+- npm
+- pnpm
+- registry
+- serverless-framework
+- vlt
+- yarn
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

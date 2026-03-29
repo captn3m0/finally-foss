@@ -1,0 +1,15 @@
+name: pureblazor/components
+repo: https://github.com/pureblazor/components
+website: https://pureblazor.com
+description: PureBlazor UI Components
+tags:
+- blazor
+- csharp
+- dotnet
+- ui-components
+- maui-blazor
+- tailwindcss
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

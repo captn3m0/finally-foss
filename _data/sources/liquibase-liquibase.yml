@@ -1,0 +1,28 @@
+name: liquibase/liquibase
+repo: https://github.com/liquibase/liquibase
+website: https://www.liquibase.org
+description: Main Liquibase Source
+tags:
+- java
+- liquibase
+- database-migrations
+- java-library
+- continuous-delivery
+- devops
+- sql
+- continuous-deployment
+- database
+- database-management
+- database-administration
+- mysql
+- sqlserver
+- db2
+- mariadb
+- hacktoberfest
+- oracle
+ranges:
+- versions: '>= 5.0'
+  original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2
+  notes: Versions <= 4.x remain Apache-2.0.

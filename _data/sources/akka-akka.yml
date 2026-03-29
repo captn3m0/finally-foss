@@ -1,0 +1,24 @@
+name: akka/akka
+repo: https://github.com/akka/akka
+website: https://doc.akka.io/libraries/
+description: A platform to build and run apps that are elastic, agile, and resilient.
+  SDK, libraries, and hosted environments.
+tags:
+- reactive
+- distributed-systems
+- concurrency
+- high-performance
+- akka
+- actor-model
+- distributed-actors
+- cloud-native
+- streaming
+ranges:
+- versions: '>= 2.7'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 3
+  notes: 'Versions <= 2.6.x remain Apache-2.0. Apache Pekko forked from 2.6.x. Revenue
+    threshold: businesses with >$25M annual revenue need commercial license.
+
+    '

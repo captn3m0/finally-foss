@@ -1,0 +1,7 @@
+name: tadpolehq/tadpole
+repo: https://github.com/tadpolehq/tadpole
+website: https://tadpolehq.com/
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

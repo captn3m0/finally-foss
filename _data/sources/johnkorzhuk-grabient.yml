@@ -1,0 +1,8 @@
+name: johnkorzhuk/grabient
+repo: https://github.com/johnkorzhuk/grabient
+website: https://grabient.com
+description: Cosine gradient generator & Palette finder
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

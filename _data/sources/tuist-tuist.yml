@@ -1,0 +1,15 @@
+name: tuist/tuist
+repo: https://github.com/tuist/tuist
+website: https://tuist.dev
+description: A virtual platform team for mobile devs who ship
+tags:
+- xcode
+- swift
+- objective-c
+- scalability
+- productivity
+- ios
+ranges:
+- original_license: FCL-1.0-MIT
+  oss_license: MIT
+  delay_yrs: 2

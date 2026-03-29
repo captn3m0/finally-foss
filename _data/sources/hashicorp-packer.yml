@@ -1,0 +1,11 @@
+name: hashicorp/packer
+repo: https://github.com/hashicorp/packer
+website: https://developer.hashicorp.com/packer
+description: Packer is a tool for creating identical machine images for multiple platforms
+  from a single source configuration.
+ranges:
+- versions: '>= 1.9.3'
+  original_license: BUSL-1.1
+  oss_license: MPL-2.0
+  delay_yrs: 4
+  notes: Versions <= 1.9.2 remain MPL-2.0.

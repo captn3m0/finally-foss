@@ -1,0 +1,13 @@
+name: Burla-Cloud/burla
+repo: https://github.com/Burla-Cloud/burla
+website: https://burla.dev
+description: The simplest way to scale Python.
+tags:
+- batch-processing
+- python
+- data-pipelines
+- etl-pipelines
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

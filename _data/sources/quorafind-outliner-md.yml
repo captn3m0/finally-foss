@@ -1,0 +1,7 @@
+name: Quorafind/Outliner.MD
+repo: https://github.com/Quorafind/Outliner.MD
+website: https://outliner.md
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

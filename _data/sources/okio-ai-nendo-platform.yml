@@ -1,0 +1,8 @@
+name: okio-ai/nendo-platform
+repo: https://github.com/okio-ai/nendo-platform
+description: Nendo is an open source platform for AI-driven audio management, intelligence,
+  and generation.
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

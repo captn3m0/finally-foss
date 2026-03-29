@@ -1,0 +1,28 @@
+name: TraceMachina/nativelink
+repo: https://github.com/TraceMachina/nativelink
+website: https://nativelink.com
+description: NativeLink is a Nix-powered, open source, high-performance build cache
+  and remote execution server, compatible with Bazel, Soong, Pants, Buck2, Reclient,
+  and other RE-compatible build systems. It offers drastically faster builds, reduced
+  test flakiness, and support for specialized hardware.
+tags:
+- apache2
+- bazel
+- build-automation
+- build-system
+- chromium
+- content-addressable-storage
+- remote-execution
+- rust
+- re-client
+- nix
+- buck2
+- free
+- simulation
+- ci
+- pants
+- soong
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

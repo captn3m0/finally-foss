@@ -1,0 +1,8 @@
+name: legacy-use/legacy-use
+repo: https://github.com/legacy-use/legacy-use
+website: https://www.legacy-use.com
+description: Turn any legacy application into a modern REST API, powered by AI
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

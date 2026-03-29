@@ -1,0 +1,25 @@
+name: superglue-ai/superglue
+repo: https://github.com/superglue-ai/superglue
+website: https://superglue.ai
+description: superglue (YC W25) builds integrations and tools from natural language.
+  Get production-grade tools for long tail and enterprise systems.
+tags:
+- api
+- api-gateway
+- etl-automation
+- transformations
+- api-orchestration
+- agents
+- ai
+- ai-agents
+- developer-tools
+- function-calling
+- integration
+- llm
+- mcp
+- oauth2
+- open-source
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

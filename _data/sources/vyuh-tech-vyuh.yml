@@ -1,0 +1,16 @@
+name: vyuh-tech/vyuh
+repo: https://github.com/vyuh-tech/vyuh
+website: https://vyuh.tech
+description: Build Modular, Scalable, CMS/Server-driven Flutter Apps
+tags:
+- app
+- cms
+- dart
+- flutter
+- framework
+- modular
+- server-driven-ui
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

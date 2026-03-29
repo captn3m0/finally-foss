@@ -1,0 +1,15 @@
+name: Uniswap/v3-core
+repo: https://github.com/Uniswap/v3-core
+website: https://uniswap.org
+description: 🦄 🦄 🦄 Core smart contracts of Uniswap v3
+tags:
+- ethereum
+- smart-contracts
+- automated-market-maker
+- core
+ranges:
+- versions: ~> 3.0
+  original_license: BUSL-1.1
+  oss_license: GPL-2.0-or-later
+  delay_yrs: 2
+  notes: BSL expired April 1, 2023. Now fully GPL-2.0+.

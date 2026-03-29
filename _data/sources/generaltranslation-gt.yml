@@ -1,0 +1,18 @@
+name: generaltranslation/gt
+repo: https://github.com/generaltranslation/gt
+website: https://generaltranslation.com/docs
+description: Automated i18n for developers
+tags:
+- i18n
+- internationalization
+- javascript
+- l10n
+- localization
+- nextjs
+- react
+- translation
+- translations
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

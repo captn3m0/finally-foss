@@ -1,0 +1,9 @@
+name: ZeroLeaks/zeroleaks
+repo: https://github.com/ZeroLeaks/zeroleaks
+website: https://zeroleaks.ai
+description: AI Security Scanner - Test your AI systems for prompt injection and extraction
+  vulnerabilities
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

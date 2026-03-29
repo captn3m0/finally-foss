@@ -1,0 +1,14 @@
+name: sohzm/wisk
+repo: https://github.com/sohzm/wisk
+website: https://wisk.cc
+description: a plugin-based document editor written in vanilla javascript
+tags:
+- document
+- editor
+- javascript
+- web-component
+- lit-elemenet
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

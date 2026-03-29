@@ -1,0 +1,6 @@
+name: gvkhna/vibescraper
+repo: https://github.com/gvkhna/vibescraper
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

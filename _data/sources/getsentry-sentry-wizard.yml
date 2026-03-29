@@ -1,0 +1,18 @@
+name: getsentry/sentry-wizard
+repo: https://github.com/getsentry/sentry-wizard
+description: Sentry Project Setup Wizard
+tags:
+- sentry
+- wizard
+- project
+- react-native
+- cordova
+- electron
+- hacktoberfest
+- tag-production
+- team-web-frontend
+- sdk-adjacent
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

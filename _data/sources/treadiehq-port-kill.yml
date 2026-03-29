@@ -1,0 +1,9 @@
+name: treadiehq/port-kill
+repo: https://github.com/treadiehq/port-kill
+website: https://portkill.com
+description: Port Kill helps you find and free ports and caches blocking your dev
+  work.
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

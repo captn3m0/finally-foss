@@ -1,0 +1,15 @@
+name: ptah-sh/ptah-server
+repo: https://github.com/ptah-sh/ptah-server
+website: https://ptah.sh
+description: Self-hosted alternative to Heroku
+tags:
+- deployment
+- devops
+- fair-source
+- self-hosted
+- self-hostable
+- self-hosting
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

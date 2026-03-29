@@ -1,0 +1,17 @@
+name: getsentry/sentry-cli
+repo: https://github.com/getsentry/sentry-cli
+website: https://docs.sentry.io/cli/
+description: A command line utility to work with Sentry.
+tags:
+- sentry
+- cli
+- rust
+- sentry-cli
+- crash-reporting
+- hacktoberfest
+- tag-production
+- team-web-backend
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

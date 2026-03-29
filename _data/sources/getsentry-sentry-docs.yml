@@ -1,0 +1,15 @@
+name: getsentry/sentry-docs
+repo: https://github.com/getsentry/sentry-docs
+website: https://docs.sentry.io
+description: Sentry's documentation (and tools to build it)
+tags:
+- sentry-documentation
+- docs
+- hacktoberfest
+- documentation
+- tag-production
+- team-web-frontend
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

@@ -1,0 +1,11 @@
+name: codecrafters-io/frontend
+repo: https://github.com/codecrafters-io/frontend
+website: https://app.codecrafters.io/catalog
+description: Rebuild complex systems from scratch
+tags:
+- ember
+- programming-challenges
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

@@ -1,0 +1,26 @@
+name: redpanda-data/redpanda
+repo: https://github.com/redpanda-data/redpanda
+website: https://redpanda.com
+description: Redpanda is a streaming data platform for developers. Kafka API compatible.
+  10x faster. No ZooKeeper. No JVM!
+tags:
+- kafka
+- cpp
+- kubernetes
+- go
+- streaming
+- redpanda
+- containers
+- realtime
+- event-driven
+- microservices
+- storage-engine
+- stream-processing
+- seastar
+ranges:
+- versions: '>= 0'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 4
+  notes: 'Each version converts to Apache-2.0 after 4 years. Restriction: cannot offer
+    as commercial streaming service.'

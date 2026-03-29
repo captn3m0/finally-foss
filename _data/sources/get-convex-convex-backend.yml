@@ -1,0 +1,14 @@
+name: get-convex/convex-backend
+repo: https://github.com/get-convex/convex-backend
+website: https://docs.convex.dev
+description: The open-source reactive database for app developers
+tags:
+- backend
+- convex
+- database
+- typescript
+- rust
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

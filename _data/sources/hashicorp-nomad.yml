@@ -1,0 +1,13 @@
+name: hashicorp/nomad
+repo: https://github.com/hashicorp/nomad
+website: https://www.nomadproject.io/
+description: Nomad is an easy-to-use, flexible, and performant workload orchestrator
+  that can deploy a mix of microservice, batch, containerized, and non-containerized
+  applications. Nomad is easy to operate and scale and has native Consul and Vault
+  integrations.
+ranges:
+- versions: '>= 1.6.2'
+  original_license: BUSL-1.1
+  oss_license: MPL-2.0
+  delay_yrs: 4
+  notes: Versions <= 1.6.1 remain MPL-2.0.

@@ -1,0 +1,18 @@
+name: getsentry/self-hosted
+repo: https://github.com/getsentry/self-hosted
+website: https://develop.sentry.dev/self-hosted/
+description: Sentry, feature-complete and packaged up for low-volume deployments and
+  proofs-of-concept
+tags:
+- sentry
+- docker
+- docker-compose
+- on-premise
+- self-hosted
+- hacktoberfest
+- tag-production
+- fair-source
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

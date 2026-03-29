@@ -1,0 +1,12 @@
+name: liquibase/liquibase-oracle
+repo: https://github.com/liquibase/liquibase-oracle
+description: Liquibase extension to add improved Oracle support
+tags:
+- hacktoberfest
+- core
+- extension
+- oss
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

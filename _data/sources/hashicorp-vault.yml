@@ -1,0 +1,15 @@
+name: hashicorp/vault
+repo: https://github.com/hashicorp/vault
+website: https://developer.hashicorp.com/vault
+description: A tool for secrets management, encryption as a service, and privileged
+  access management
+tags:
+- vault
+- go
+- secrets
+ranges:
+- versions: '>= 1.14.2'
+  original_license: BUSL-1.1
+  oss_license: MPL-2.0
+  delay_yrs: 4
+  notes: Versions <= 1.14.1 remain MPL-2.0. OpenBao forked from last MPL release.

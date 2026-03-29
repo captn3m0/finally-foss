@@ -1,0 +1,29 @@
+name: dyad-sh/dyad
+repo: https://github.com/dyad-sh/dyad
+website: https://dyad.sh
+description: Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit
+  / Bolt alternative 🌟 Star if you like it!
+tags:
+- ai-app-builder
+- bolt
+- lovable
+- v0
+- anthropic
+- artificial-intelligence
+- deepseek
+- gemini
+- generative-ai
+- github
+- llm
+- llms
+- nextjs
+- ollama
+- openai
+- qwen
+- react
+- typescript
+- vercel
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

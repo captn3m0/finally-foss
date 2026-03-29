@@ -1,0 +1,21 @@
+name: dotCMS/core
+repo: https://github.com/dotCMS/core
+website: http://dotcms.com
+description: The Visual Headless Content Management System for Enterprises
+tags:
+- dotcms
+- cloud
+- java
+- cms
+- content
+- opensouce
+- headless-cms
+- graphql
+- dxp
+- content-management-system
+ranges:
+- versions: '>= 0'
+  original_license: BUSL-1.1
+  oss_license: GPL-3.0
+  delay_yrs: 4
+  notes: BSL applies to versions released after Feb 14, 2025.

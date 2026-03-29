@@ -1,0 +1,12 @@
+name: cronitorio/cronitor-cli
+repo: https://github.com/cronitorio/cronitor-cli
+website: https://cronitor.io/docs/using-cronitor-cli
+description: Command line tools for Cronitor.io
+tags:
+- cronitor
+- cron
+- crontab
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

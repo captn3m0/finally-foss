@@ -1,0 +1,12 @@
+name: gitbutlerapp/gitbutler
+repo: https://github.com/gitbutlerapp/gitbutler
+website: https://gitbutler.com
+description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
+tags:
+- git
+- github
+- tauri
+ranges:
+- original_license: FSL-1.1-MIT
+  oss_license: MIT
+  delay_yrs: 2

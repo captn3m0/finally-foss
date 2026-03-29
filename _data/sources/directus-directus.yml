@@ -1,0 +1,32 @@
+name: directus/directus
+repo: https://github.com/directus/directus
+website: https://directus.io
+description: The flexible backend for all your projects 🐰 Turn your DB into a headless
+  CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
+tags:
+- api
+- cms
+- graphql
+- app
+- database
+- vue
+- sqlite
+- mysql
+- postgresql
+- mssql
+- directus
+- node
+- headless-cms
+- no-code
+- typescript
+- javascript
+- data-visualization
+- sql
+- composable
+- mariadb
+ranges:
+- versions: '>= 10.0.0'
+  original_license: BUSL-1.1
+  oss_license: GPL-3.0
+  delay_yrs: 3
+  notes: Versions <= 9.x remain GPL-3.0.

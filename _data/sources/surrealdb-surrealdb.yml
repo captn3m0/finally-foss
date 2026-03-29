@@ -1,0 +1,30 @@
+name: surrealdb/surrealdb
+repo: https://github.com/surrealdb/surrealdb
+website: https://surrealdb.com
+description: A scalable, distributed, collaborative, document-graph database, for
+  the realtime web
+tags:
+- database
+- distributed
+- distributed-database
+- document-database
+- realtime-database
+- cloud-database
+- backend-as-a-service
+- database-as-a-service
+- serverless
+- web
+- developer-tools
+- devtools
+- sql
+- nosql
+- graph-database
+- surreal
+- surrealdb
+- iot-database
+ranges:
+- versions: '>= 1.0'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 4
+  notes: 'Restriction: cannot offer SurrealDB as a commercial DBaaS.'

@@ -1,0 +1,14 @@
+name: opral/inlang
+repo: https://github.com/opral/inlang
+website: https://inlang.com
+description: open file format for localizing software (i18n)
+tags:
+- i18n
+- localization
+- localisation
+- vscode
+- globalization
+ranges:
+- original_license: FCL-1.0-MIT
+  oss_license: MIT
+  delay_yrs: 2

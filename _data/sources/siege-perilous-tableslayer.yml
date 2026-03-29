@@ -1,0 +1,8 @@
+name: Siege-Perilous/tableslayer
+repo: https://github.com/Siege-Perilous/tableslayer
+website: https://tableslayer.com
+description: Tools to create animated battle maps for in person RPG games.
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

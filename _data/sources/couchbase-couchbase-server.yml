@@ -1,0 +1,9 @@
+name: couchbase/couchbase-server
+repo: https://github.com/couchbase/manifest
+stars: 300
+ranges:
+- versions: '>= 7.0'
+  original_license: BUSL-1.1
+  oss_license: Apache-2.0
+  delay_yrs: 4
+  notes: Switched from Apache-2.0 to BSL in 2021. Mobile SDKs also under BSL.

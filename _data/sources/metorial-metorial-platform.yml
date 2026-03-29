@@ -1,0 +1,14 @@
+name: metorial/metorial-platform
+repo: https://github.com/metorial/metorial-platform
+website: https://metorial.com/
+description: The engine powering hundreds of thousands of MCP connections 🤖 🔥
+tags:
+- agentic-ai
+- ai
+- mcp
+- saas
+- mcp-server
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

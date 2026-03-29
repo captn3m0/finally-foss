@@ -1,0 +1,51 @@
+:root {
+  color-scheme: light dark;
+
+  /* Light (default) */
+  --bg: #faf8f5;
+  --accent-bg: #eee9f5;
+  --text: #2d2b3a;
+  --text-light: #5c5971;
+  --border: #d8d3e0;
+  --accent: #5b5ea6;
+  --accent-hover: #7578c4;
+  --accent-text: #fff;
+  --code: #a84b6a;
+  --preformatted: #3e3b4f;
+  --marked: #f0dfa0;
+  --disabled: #e8e4ef;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1e1d2b;
+    --accent-bg: #282738;
+    --text: #e0dde8;
+    --text-light: #a09bb2;
+    --border: #3d3a50;
+    --accent: #9b9ed4;
+    --accent-hover: #b5b8e8;
+    --accent-text: #1e1d2b;
+    --code: #e8879f;
+    --preformatted: #ccc6d8;
+    --marked: #6e6330;
+    --disabled: #3d3a50;
+  }
+}
+
+
+.release-notes {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-light);
+  margin: 0.25rem 0 0.5rem;
+}
+
+.release-license {
+  font-size: 0.8rem;
+  background: var(--accent-bg);
+  color: var(--accent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  font-weight: 500;
+}

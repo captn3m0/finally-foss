@@ -1,0 +1,19 @@
+name: lokus-ai/lokus
+repo: https://github.com/lokus-ai/lokus
+website: https://lokusmd.com
+description: Lokus - A modern, intuitive note-taking application with powerful editing
+  capabilities
+tags:
+- markdown
+- notes
+- open-source
+- rust
+- tauri
+- open
+- source
+- open-source-project
+- open-source-projects
+ranges:
+- original_license: FCL-1.0-MIT
+  oss_license: MIT
+  delay_yrs: 2

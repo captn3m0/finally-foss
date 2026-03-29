@@ -1,0 +1,11 @@
+name: getsentry/sentry-mcp
+repo: https://github.com/getsentry/sentry-mcp
+website: https://mcp.sentry.dev
+description: An MCP server for interacting with Sentry via LLMs.
+tags:
+- mcp-server
+- tag-production
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2

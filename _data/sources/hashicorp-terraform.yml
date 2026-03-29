@@ -1,0 +1,19 @@
+name: hashicorp/terraform
+repo: https://github.com/hashicorp/terraform
+website: http://developer.hashicorp.com/terraform
+description: Terraform enables you to safely and predictably create, change, and improve
+  infrastructure. It is a source-available tool that codifies APIs into declarative
+  configuration files that can be shared amongst team members, treated as code, edited,
+  reviewed, and versioned.
+tags:
+- graph
+- infrastructure-as-code
+- terraform
+- cloud
+- cloud-management
+ranges:
+- versions: '>= 1.5.6'
+  original_license: BUSL-1.1
+  oss_license: MPL-2.0
+  delay_yrs: 4
+  notes: Versions <= 1.5.5 remain MPL-2.0. OpenTofu forked from last MPL release.

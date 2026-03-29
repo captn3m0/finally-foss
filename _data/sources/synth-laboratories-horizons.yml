@@ -1,0 +1,8 @@
+name: synth-laboratories/Horizons
+repo: https://github.com/synth-laboratories/Horizons
+website: https://www.usesynth.ai
+description: Open Source Agent Execution
+ranges:
+- original_license: FSL-1.1-ALv2
+  oss_license: Apache-2.0
+  delay_yrs: 2
