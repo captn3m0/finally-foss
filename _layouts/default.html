@@ -13,6 +13,7 @@
   <header>
     <nav>
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="current"{% endif %}>Home</a>
+      <a href="{{ '/upcoming' | relative_url }}"{% if page.url == '/upcoming/' %} class="current"{% endif %}>Upcoming</a>
       <a href="{{ '/about' | relative_url }}"{% if page.url == '/about/' %} class="current"{% endif %}>About</a>
       <a href="{{ '/contributing' | relative_url }}"{% if page.url == '/contributing/' %} class="current"{% endif %}>Contributing</a>
       <a href="{{ '/atom.xml' | relative_url }}"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg> Feed</a>
