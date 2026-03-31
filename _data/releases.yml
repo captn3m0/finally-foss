@@ -93,12 +93,12 @@
   - web-framework
   notes: Converts to AGPL-3.0 with a linking exception.
 - identifiers:
-  - pkg:github/cockroachdb/cockroach@v23.1.0-alpha.8
-  - pkg:generic/cockroachdb/cockroach?vcs_url=git%2Bhttps://github.com/cockroachdb/cockroach.git%40v23.1.0-alpha.8
+  - pkg:github/cockroachdb/cockroach@v23.1.0-alpha.9
+  - pkg:generic/cockroachdb/cockroach?vcs_url=git%2Bhttps://github.com/cockroachdb/cockroach.git%40v23.1.0-alpha.9
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 3
-  release_date: '2026-03-24'
+  release_date: '2026-03-31'
   description: CockroachDB — the cloud native, distributed SQL database designed for
     high availability, effortless scale, and control over data placement.
   website: https://www.cockroachlabs.com
@@ -128,6 +128,18 @@
   - test-coverage
   - typescript
   - vite
+- identifiers:
+  - pkg:github/codecrafters-io/frontend@v1246
+  - pkg:generic/codecrafters-io/frontend?vcs_url=git%2Bhttps://github.com/codecrafters-io/frontend.git%40v1246
+  original_license: FSL-1.1-MIT
+  license: MIT
+  delay_yrs: 2
+  release_date: '2026-01-09'
+  description: Rebuild complex systems from scratch
+  website: https://app.codecrafters.io/catalog
+  tags:
+  - ember
+  - programming-challenges
 - identifiers:
   - pkg:github/cronitorio/cronitor-cli@30.4
   - pkg:generic/cronitorio/cronitor-cli?vcs_url=git%2Bhttps://github.com/cronitorio/cronitor-cli.git%4030.4
@@ -436,12 +448,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.25.0-rc1
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.25.0-rc1
+  - pkg:github/materializeinc/materialize@v0.25.0
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.25.0
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-03-30'
+  release_date: '2026-03-31'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
