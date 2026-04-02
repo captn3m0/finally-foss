@@ -652,12 +652,12 @@
   - pants
   - soong
 - identifiers:
-  - pkg:github/tuist/tuist@4.8.1
-  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.8.1
+  - pkg:github/tuist/tuist@4.9.0
+  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.9.0
   original_license: FCL-1.0-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-03-25'
+  release_date: '2026-04-02'
   description: A virtual platform team for mobile devs who ship
   website: https://tuist.dev
   tags:
