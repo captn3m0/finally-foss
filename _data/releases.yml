@@ -477,12 +477,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/monetr/monetr@v0.16.5
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.16.5
+  - pkg:github/monetr/monetr@v0.16.7
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.16.7
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-05'
+  release_date: '2026-04-06'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
