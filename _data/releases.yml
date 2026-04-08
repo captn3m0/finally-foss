@@ -448,12 +448,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.25.0
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.25.0
+  - pkg:github/materializeinc/materialize@v0.26.0-rc1
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.0-rc1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-03-31'
+  release_date: '2026-04-08'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
@@ -566,12 +566,12 @@
   notes: 'Each version converts to Apache-2.0 after 4 years. Restriction: cannot offer
     as commercial streaming service.'
 - identifiers:
-  - pkg:github/safe-global/safe-transaction-service@v4.37.1
-  - pkg:generic/safe-global/safe-transaction-service?vcs_url=git%2Bhttps://github.com/safe-global/safe-transaction-service.git%40v4.37.1
+  - pkg:github/safe-global/safe-transaction-service@v4.37.2
+  - pkg:generic/safe-global/safe-transaction-service?vcs_url=git%2Bhttps://github.com/safe-global/safe-transaction-service.git%40v4.37.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-03-26'
+  release_date: '2026-04-08'
   description: Keeps track of transactions sent via Safe contacts and confirmed transactions.
     It also keeps track of Ether and ERC20 token transfers to Safe contracts.
   tags:
