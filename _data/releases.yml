@@ -477,12 +477,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/monetr/monetr@v0.16.8
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.16.8
+  - pkg:github/monetr/monetr@v0.16.9
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.16.9
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-07'
+  release_date: '2026-04-09'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -608,12 +608,12 @@
   notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
     Hub Mainnet.
 - identifiers:
-  - pkg:github/supabase-community/seed@v0.91.1
-  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.91.1
+  - pkg:github/supabase-community/seed@v0.92.1
+  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.92.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-07'
+  release_date: '2026-04-09'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
 - identifiers:
