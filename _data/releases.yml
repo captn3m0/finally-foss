@@ -298,12 +298,12 @@
   - tag-production
   - team-web-frontend
 - identifiers:
-  - pkg:github/getsentry/sentry-wizard@v3.21.0
-  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.21.0
+  - pkg:github/getsentry/sentry-wizard@v3.22.0
+  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.22.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-03-11'
+  release_date: '2026-04-10'
   description: Sentry Project Setup Wizard
   tags:
   - sentry
@@ -364,12 +364,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.10.29
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.10.29
+  - pkg:github/gitbutlerapp/gitbutler@release/0.11.0
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.11.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-03'
+  release_date: '2026-04-10'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -448,12 +448,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.26.0-rc1
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.0-rc1
+  - pkg:github/materializeinc/materialize@v0.26.0
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.0
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-04-08'
+  release_date: '2026-04-10'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
@@ -608,12 +608,12 @@
   notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
     Hub Mainnet.
 - identifiers:
-  - pkg:github/supabase-community/seed@v0.92.1
-  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.92.1
+  - pkg:github/supabase-community/seed@v0.92.2
+  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.92.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-09'
+  release_date: '2026-04-10'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
 - identifiers:
@@ -632,12 +632,12 @@
   - task-management
   - task-manager
 - identifiers:
-  - pkg:github/tracemachina/nativelink@v0.2.0
-  - pkg:generic/tracemachina/nativelink?vcs_url=git%2Bhttps://github.com/TraceMachina/nativelink.git%40v0.2.0
+  - pkg:github/tracemachina/nativelink@v0.3.2
+  - pkg:generic/tracemachina/nativelink?vcs_url=git%2Bhttps://github.com/TraceMachina/nativelink.git%40v0.3.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2025-12-21'
+  release_date: '2026-04-10'
   description: NativeLink is a Nix-powered, open source, high-performance build cache
     and remote execution server, compatible with Bazel, Soong, Pants, Buck2, Reclient,
     and other RE-compatible build systems. It offers drastically faster builds, reduced
