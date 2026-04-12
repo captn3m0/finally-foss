@@ -44,12 +44,12 @@
   - subscription
   - subscription-management
 - identifiers:
-  - pkg:github/chartbrew/chartbrew@v3.2.1
-  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.2.1
+  - pkg:github/chartbrew/chartbrew@v3.3.0
+  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.3.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-03-23'
+  release_date: '2026-04-12'
   description: Open-source reporting platform to build and share live dashboards from
     APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable
     charts 📈📊
