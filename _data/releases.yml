@@ -245,12 +245,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/getsentry/self-hosted@24.3.0
-  - pkg:generic/getsentry/self-hosted?vcs_url=git%2Bhttps://github.com/getsentry/self-hosted.git%4024.3.0
+  - pkg:github/getsentry/self-hosted@24.4.0
+  - pkg:generic/getsentry/self-hosted?vcs_url=git%2Bhttps://github.com/getsentry/self-hosted.git%4024.4.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-03-15'
+  release_date: '2026-04-16'
   description: Sentry, feature-complete and packaged up for low-volume deployments
     and proofs-of-concept
   website: https://develop.sentry.dev/self-hosted/
@@ -608,12 +608,12 @@
   notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
     Hub Mainnet.
 - identifiers:
-  - pkg:github/supabase-community/seed@v0.93.0
-  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.93.0
+  - pkg:github/supabase-community/seed@v0.94.1
+  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.94.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-11'
+  release_date: '2026-04-16'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
 - identifiers:
