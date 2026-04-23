@@ -44,12 +44,12 @@
   - subscription
   - subscription-management
 - identifiers:
-  - pkg:github/chartbrew/chartbrew@v3.3.0
-  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.3.0
+  - pkg:github/chartbrew/chartbrew@v3.4.0
+  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.4.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-12'
+  release_date: '2026-04-23'
   description: Open-source reporting platform to build and share live dashboards from
     APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable
     charts 📈📊
@@ -207,12 +207,12 @@
   - content-management-system
   notes: BSL applies to versions released after Feb 14, 2025.
 - identifiers:
-  - pkg:github/flipt-io/flipt@v1.40.1
-  - pkg:generic/flipt-io/flipt?vcs_url=git%2Bhttps://github.com/flipt-io/flipt.git%40v1.40.1
+  - pkg:github/flipt-io/flipt@v1.40.2
+  - pkg:generic/flipt-io/flipt?vcs_url=git%2Bhttps://github.com/flipt-io/flipt.git%40v1.40.2
   original_license: FCL-1.0-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-11'
+  release_date: '2026-04-23'
   description: Enterprise-ready, Git native feature management solution
   website: https://flipt.io
   tags:
@@ -364,12 +364,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.11.3
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.11.3
+  - pkg:github/gitbutlerapp/gitbutler@release/0.11.4
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.11.4
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-18'
+  release_date: '2026-04-23'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -477,12 +477,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/monetr/monetr@v0.16.12
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.16.12
+  - pkg:github/monetr/monetr@v0.16.13
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.16.13
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-19'
+  release_date: '2026-04-23'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -540,12 +540,12 @@
   release_date: '2024-11-23'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.1.1-rc1
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.1.1-rc1
+  - pkg:github/redpanda-data/redpanda@v22.1.1-rc2
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.1.1-rc2
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-03-22'
+  release_date: '2026-04-23'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
@@ -608,12 +608,12 @@
   notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
     Hub Mainnet.
 - identifiers:
-  - pkg:github/supabase-community/seed@v0.95.1
-  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.95.1
+  - pkg:github/supabase-community/seed@v0.96.0
+  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.96.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-22'
+  release_date: '2026-04-23'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
 - identifiers:
