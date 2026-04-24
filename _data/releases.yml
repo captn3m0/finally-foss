@@ -501,12 +501,12 @@
   - budget-app
   - budget-tool
 - identifiers:
-  - pkg:github/overmindtech/cli@v0.26.2
-  - pkg:generic/overmindtech/cli?vcs_url=git%2Bhttps://github.com/overmindtech/cli.git%40v0.26.2
+  - pkg:github/overmindtech/cli@v0.26.5
+  - pkg:generic/overmindtech/cli?vcs_url=git%2Bhttps://github.com/overmindtech/cli.git%40v0.26.5
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-03-25'
+  release_date: '2026-04-24'
   description: Identify the blast radius and risks for Terraform changes in real time
   website: https://overmind.tech/
   tags:
