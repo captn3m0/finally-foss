@@ -234,12 +234,12 @@
   - hacktoberfest
   - redux
 - identifiers:
-  - pkg:github/getsentry/relay@24.4.1
-  - pkg:generic/getsentry/relay?vcs_url=git%2Bhttps://github.com/getsentry/relay.git%4024.4.1
+  - pkg:github/getsentry/relay@24.4.2
+  - pkg:generic/getsentry/relay?vcs_url=git%2Bhttps://github.com/getsentry/relay.git%4024.4.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-04-18'
+  release_date: '2026-04-29'
   description: Sentry event forwarding and ingestion service.
   website: https://docs.sentry.io/product/relay/
   tags:
@@ -282,12 +282,12 @@
   - tag-production
   - team-web-backend
 - identifiers:
-  - pkg:github/getsentry/sentry-docs@24.4.1
-  - pkg:generic/getsentry/sentry-docs?vcs_url=git%2Bhttps://github.com/getsentry/sentry-docs.git%4024.4.1
+  - pkg:github/getsentry/sentry-docs@24.4.2
+  - pkg:generic/getsentry/sentry-docs?vcs_url=git%2Bhttps://github.com/getsentry/sentry-docs.git%4024.4.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-04-18'
+  release_date: '2026-04-29'
   description: Sentry's documentation (and tools to build it)
   website: https://docs.sentry.io
   tags:
@@ -317,12 +317,12 @@
   - team-web-frontend
   - sdk-adjacent
 - identifiers:
-  - pkg:github/getsentry/sentry@24.4.1
-  - pkg:generic/getsentry/sentry?vcs_url=git%2Bhttps://github.com/getsentry/sentry.git%4024.4.1
+  - pkg:github/getsentry/sentry@24.4.2
+  - pkg:generic/getsentry/sentry?vcs_url=git%2Bhttps://github.com/getsentry/sentry.git%4024.4.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-04-18'
+  release_date: '2026-04-29'
   description: Developer-first error tracking and performance monitoring
   website: https://sentry.io
   tags:
@@ -343,22 +343,22 @@
   - fair-source
   notes: Switched from BSL to FSL in Nov 2023 starting with 23.11.0.
 - identifiers:
-  - pkg:github/getsentry/snuba@24.4.1
-  - pkg:generic/getsentry/snuba?vcs_url=git%2Bhttps://github.com/getsentry/snuba.git%4024.4.1
+  - pkg:github/getsentry/snuba@24.4.2
+  - pkg:generic/getsentry/snuba?vcs_url=git%2Bhttps://github.com/getsentry/snuba.git%4024.4.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-04-18'
+  release_date: '2026-04-29'
   description: Search the seas for your lost treasure.
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/getsentry/symbolicator@24.4.1
-  - pkg:generic/getsentry/symbolicator?vcs_url=git%2Bhttps://github.com/getsentry/symbolicator.git%4024.4.1
+  - pkg:github/getsentry/symbolicator@24.4.2
+  - pkg:generic/getsentry/symbolicator?vcs_url=git%2Bhttps://github.com/getsentry/symbolicator.git%4024.4.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-18'
+  release_date: '2026-04-29'
   description: Native Symbolication as a Service
   website: https://getsentry.github.io/symbolicator/
   tags:
