@@ -207,12 +207,12 @@
   - content-management-system
   notes: BSL applies to versions released after Feb 14, 2025.
 - identifiers:
-  - pkg:github/flipt-io/flipt@v1.40.2
-  - pkg:generic/flipt-io/flipt?vcs_url=git%2Bhttps://github.com/flipt-io/flipt.git%40v1.40.2
+  - pkg:github/flipt-io/flipt@v1.41.0
+  - pkg:generic/flipt-io/flipt?vcs_url=git%2Bhttps://github.com/flipt-io/flipt.git%40v1.41.0
   original_license: FCL-1.0-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-23'
+  release_date: '2026-04-30'
   description: Enterprise-ready, Git native feature management solution
   website: https://flipt.io
   tags:
@@ -264,12 +264,12 @@
   - tag-production
   - fair-source
 - identifiers:
-  - pkg:github/getsentry/sentry-cli@2.31.0
-  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.31.0
+  - pkg:github/getsentry/sentry-cli@2.31.1
+  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.31.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-03-27'
+  release_date: '2026-04-30'
   description: A command line utility to work with Sentry.
   website: https://docs.sentry.io/cli/
   tags:
@@ -448,12 +448,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.26.1-rc1
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.1-rc1
+  - pkg:github/materializeinc/materialize@v0.26.1-rc2
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.1-rc2
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-04-28'
+  release_date: '2026-04-30'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
@@ -608,12 +608,12 @@
   notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
     Hub Mainnet.
 - identifiers:
-  - pkg:github/supabase-community/seed@v0.96.1
-  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.96.1
+  - pkg:github/supabase-community/seed@v0.97.0
+  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.97.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-25'
+  release_date: '2026-04-30'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
 - identifiers:
