@@ -113,12 +113,12 @@
     are already Apache-2.0. v24.3+ uses proprietary CockroachDB Software License (CSL),
     no longer has delayed OSS conversion.
 - identifiers:
-  - pkg:github/codecov/gazebo@self-hosted-24.4.1
-  - pkg:generic/codecov/gazebo?vcs_url=git%2Bhttps://github.com/codecov/gazebo.git%40self-hosted-24.4.1
+  - pkg:github/codecov/gazebo@self-hosted-24.5.1
+  - pkg:generic/codecov/gazebo?vcs_url=git%2Bhttps://github.com/codecov/gazebo.git%40self-hosted-24.5.1
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-04-01'
+  release_date: '2026-05-02'
   description: React SPA
   website: https://app.codecov.io/login
   tags:
@@ -264,12 +264,12 @@
   - tag-production
   - fair-source
 - identifiers:
-  - pkg:github/getsentry/sentry-cli@2.31.1
-  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.31.1
+  - pkg:github/getsentry/sentry-cli@2.31.2
+  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.31.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-30'
+  release_date: '2026-05-02'
   description: A command line utility to work with Sentry.
   website: https://docs.sentry.io/cli/
   tags:
@@ -364,12 +364,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.11.5
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.11.5
+  - pkg:github/gitbutlerapp/gitbutler@release/0.11.6
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.11.6
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-04-27'
+  release_date: '2026-05-02'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -448,12 +448,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.26.1-rc2
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.1-rc2
+  - pkg:github/materializeinc/materialize@v0.26.1-rc3
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.1-rc3
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-04-30'
+  release_date: '2026-05-02'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
@@ -532,12 +532,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/quorafind/outliner.md@0.0.1
-  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.0.1
+  - pkg:github/quorafind/outliner.md@0.0.2
+  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.0.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2024-11-23'
+  release_date: '2026-05-02'
   website: https://outliner.md
 - identifiers:
   - pkg:github/redpanda-data/redpanda@v22.1.1-rc3
@@ -608,12 +608,12 @@
   notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
     Hub Mainnet.
 - identifiers:
-  - pkg:github/supabase-community/seed@v0.97.2
-  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.97.2
+  - pkg:github/supabase-community/seed@v0.97.6
+  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.97.6
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-05-01'
+  release_date: '2026-05-02'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
 - identifiers:
