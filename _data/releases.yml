@@ -532,12 +532,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/quorafind/outliner.md@0.0.2
-  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.0.2
+  - pkg:github/quorafind/outliner.md@0.0.5
+  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.0.5
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-05-02'
+  release_date: '2026-05-03'
   website: https://outliner.md
 - identifiers:
   - pkg:github/redpanda-data/redpanda@v22.1.1-rc3
@@ -608,12 +608,12 @@
   notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
     Hub Mainnet.
 - identifiers:
-  - pkg:github/supabase-community/seed@v0.97.6
-  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.97.6
+  - pkg:github/supabase-community/seed@v0.97.8
+  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.97.8
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-05-02'
+  release_date: '2026-05-03'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
 - identifiers:
