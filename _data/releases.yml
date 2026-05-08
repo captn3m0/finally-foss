@@ -93,12 +93,12 @@
   - web-framework
   notes: Converts to AGPL-3.0 with a linking exception.
 - identifiers:
-  - pkg:github/cockroachdb/cockroach@v23.1.0-rc.2
-  - pkg:generic/cockroachdb/cockroach?vcs_url=git%2Bhttps://github.com/cockroachdb/cockroach.git%40v23.1.0-rc.2
+  - pkg:github/cockroachdb/cockroach@v23.1.0
+  - pkg:generic/cockroachdb/cockroach?vcs_url=git%2Bhttps://github.com/cockroachdb/cockroach.git%40v23.1.0
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 3
-  release_date: '2026-05-01'
+  release_date: '2026-05-08'
   description: CockroachDB — the cloud native, distributed SQL database designed for
     high availability, effortless scale, and control over data placement.
   website: https://www.cockroachlabs.com
