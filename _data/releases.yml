@@ -186,12 +186,12 @@
   - mariadb
   notes: Versions <= 9.x remain GPL-3.0.
 - identifiers:
-  - pkg:github/dotcms/core@v22.03
-  - pkg:generic/dotcms/core?vcs_url=git%2Bhttps://github.com/dotCMS/core.git%40v22.03
+  - pkg:github/dotcms/core@v22.05
+  - pkg:generic/dotcms/core?vcs_url=git%2Bhttps://github.com/dotCMS/core.git%40v22.05
   original_license: BUSL-1.1
   license: GPL-3.0
   delay_yrs: 4
-  release_date: '2026-03-14'
+  release_date: '2026-05-16'
   description: The Visual Headless Content Management System for Enterprises
   website: http://dotcms.com
   tags:
@@ -608,12 +608,12 @@
   notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
     Hub Mainnet.
 - identifiers:
-  - pkg:github/supabase-community/seed@v0.97.16
-  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.97.16
+  - pkg:github/supabase-community/seed@v0.97.17
+  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.97.17
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-05-15'
+  release_date: '2026-05-16'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
 - identifiers:
@@ -632,12 +632,12 @@
   - task-management
   - task-manager
 - identifiers:
-  - pkg:github/tracemachina/nativelink@v0.3.2
-  - pkg:generic/tracemachina/nativelink?vcs_url=git%2Bhttps://github.com/TraceMachina/nativelink.git%40v0.3.2
+  - pkg:github/tracemachina/nativelink@v0.4.0
+  - pkg:generic/tracemachina/nativelink?vcs_url=git%2Bhttps://github.com/TraceMachina/nativelink.git%40v0.4.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-04-10'
+  release_date: '2026-05-16'
   description: NativeLink is a Nix-powered, open source, high-performance build cache
     and remote execution server, compatible with Bazel, Soong, Pants, Buck2, Reclient,
     and other RE-compatible build systems. It offers drastically faster builds, reduced
