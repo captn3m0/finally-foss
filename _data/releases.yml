@@ -207,12 +207,12 @@
   - content-management-system
   notes: BSL applies to versions released after Feb 14, 2025.
 - identifiers:
-  - pkg:github/flipt-io/flipt@v1.42.0
-  - pkg:generic/flipt-io/flipt?vcs_url=git%2Bhttps://github.com/flipt-io/flipt.git%40v1.42.0
+  - pkg:github/flipt-io/flipt@v1.42.1
+  - pkg:generic/flipt-io/flipt?vcs_url=git%2Bhttps://github.com/flipt-io/flipt.git%40v1.42.1
   original_license: FCL-1.0-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-05-15'
+  release_date: '2026-05-21'
   description: Enterprise-ready, Git native feature management solution
   website: https://flipt.io
   tags:
@@ -406,12 +406,12 @@
   release_date: '2025-11-26'
   description: 速达 - 欲速亦可达
 - identifiers:
-  - pkg:github/liquibase/docker@v4.27.0
-  - pkg:generic/liquibase/docker?vcs_url=git%2Bhttps://github.com/liquibase/docker.git%40v4.27.0
+  - pkg:github/liquibase/docker@v4.28.0
+  - pkg:generic/liquibase/docker?vcs_url=git%2Bhttps://github.com/liquibase/docker.git%40v4.28.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-03-27'
+  release_date: '2026-05-21'
 - identifiers:
   - pkg:github/liquibase/liquibase-cassandra@liquibase-cassandra-4.27.0
   - pkg:generic/liquibase/liquibase-cassandra?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-cassandra.git%40liquibase-cassandra-4.27.0
@@ -608,12 +608,12 @@
   notes: Switched from Apache-2.0 to BSL. Production use allowed if connected to Source
     Hub Mainnet.
 - identifiers:
-  - pkg:github/supabase-community/seed@v0.97.17
-  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.97.17
+  - pkg:github/supabase-community/seed@v0.97.19
+  - pkg:generic/supabase-community/seed?vcs_url=git%2Bhttps://github.com/supabase-community/seed.git%40v0.97.19
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-05-16'
+  release_date: '2026-05-21'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
 - identifiers:
