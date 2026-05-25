@@ -364,12 +364,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.11.7
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.11.7
+  - pkg:github/gitbutlerapp/gitbutler@release/0.11.8
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.11.8
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-05-06'
+  release_date: '2026-05-25'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -448,12 +448,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.26.2-rc1
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.2-rc1
+  - pkg:github/materializeinc/materialize@v0.26.2
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.2
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-05-23'
+  release_date: '2026-05-25'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
@@ -532,12 +532,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/quorafind/outliner.md@0.1.3
-  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.1.3
+  - pkg:github/quorafind/outliner.md@0.1.4
+  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.1.4
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-05-15'
+  release_date: '2026-05-25'
   website: https://outliner.md
 - identifiers:
   - pkg:github/redpanda-data/redpanda@v22.1.3
