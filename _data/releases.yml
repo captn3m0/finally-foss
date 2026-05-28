@@ -264,12 +264,12 @@
   - tag-production
   - fair-source
 - identifiers:
-  - pkg:github/getsentry/sentry-cli@2.31.2
-  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.31.2
+  - pkg:github/getsentry/sentry-cli@2.32.1
+  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.32.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-05-02'
+  release_date: '2026-05-28'
   description: A command line utility to work with Sentry.
   website: https://docs.sentry.io/cli/
   tags:
