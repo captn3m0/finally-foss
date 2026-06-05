@@ -532,12 +532,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/quorafind/outliner.md@0.1.4
-  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.1.4
+  - pkg:github/quorafind/outliner.md@0.1.5
+  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.1.5
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-05-25'
+  release_date: '2026-06-05'
   website: https://outliner.md
 - identifiers:
   - pkg:github/redpanda-data/redpanda@v22.1.3
