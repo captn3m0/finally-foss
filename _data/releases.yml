@@ -44,12 +44,12 @@
   - subscription
   - subscription-management
 - identifiers:
-  - pkg:github/chartbrew/chartbrew@v3.5.1
-  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.5.1
+  - pkg:github/chartbrew/chartbrew@v3.5.2
+  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.5.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-05-20'
+  release_date: '2026-06-11'
   description: Open-source reporting platform to build and share live dashboards from
     APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable
     charts 📈📊
@@ -364,12 +364,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.12.3
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.3
+  - pkg:github/gitbutlerapp/gitbutler@release/0.12.4
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.4
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-10'
+  release_date: '2026-06-11'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -501,12 +501,12 @@
   - budget-app
   - budget-tool
 - identifiers:
-  - pkg:github/overmindtech/cli@v0.29.4
-  - pkg:generic/overmindtech/cli?vcs_url=git%2Bhttps://github.com/overmindtech/cli.git%40v0.29.4
+  - pkg:github/overmindtech/cli@v1.0.0
+  - pkg:generic/overmindtech/cli?vcs_url=git%2Bhttps://github.com/overmindtech/cli.git%40v1.0.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-06-10'
+  release_date: '2026-06-11'
   description: Identify the blast radius and risks for Terraform changes in real time
   website: https://overmind.tech/
   tags:
@@ -661,12 +661,12 @@
   - pants
   - soong
 - identifiers:
-  - pkg:github/tuist/tuist@4.16.1
-  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.16.1
+  - pkg:github/tuist/tuist@4.17.0
+  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.17.0
   original_license: FCL-1.0-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-04'
+  release_date: '2026-06-11'
   description: A virtual platform team for mobile devs who ship
   website: https://tuist.dev
   tags:
