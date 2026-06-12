@@ -113,12 +113,12 @@
     are already Apache-2.0. v24.3+ uses proprietary CockroachDB Software License (CSL),
     no longer has delayed OSS conversion.
 - identifiers:
-  - pkg:github/codecov/gazebo@self-hosted-24.5.1
-  - pkg:generic/codecov/gazebo?vcs_url=git%2Bhttps://github.com/codecov/gazebo.git%40self-hosted-24.5.1
+  - pkg:github/codecov/gazebo@self-hosted-24.6.12
+  - pkg:generic/codecov/gazebo?vcs_url=git%2Bhttps://github.com/codecov/gazebo.git%40self-hosted-24.6.12
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-05-02'
+  release_date: '2026-06-12'
   description: React SPA
   website: https://app.codecov.io/login
   tags:
