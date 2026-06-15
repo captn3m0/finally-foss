@@ -245,12 +245,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/getsentry/self-hosted@24.4.1
-  - pkg:generic/getsentry/self-hosted?vcs_url=git%2Bhttps://github.com/getsentry/self-hosted.git%4024.4.1
+  - pkg:github/getsentry/self-hosted@24.6.0
+  - pkg:generic/getsentry/self-hosted?vcs_url=git%2Bhttps://github.com/getsentry/self-hosted.git%4024.6.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-04-18'
+  release_date: '2026-06-15'
   description: Sentry, feature-complete and packaged up for low-volume deployments
     and proofs-of-concept
   website: https://develop.sentry.dev/self-hosted/
@@ -540,12 +540,12 @@
   release_date: '2026-06-05'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.1.3
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.1.3
+  - pkg:github/redpanda-data/redpanda@v22.1.4-rc1
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.1.4-rc1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-05-11'
+  release_date: '2026-06-15'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
