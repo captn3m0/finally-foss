@@ -298,12 +298,12 @@
   - tag-production
   - team-web-frontend
 - identifiers:
-  - pkg:github/getsentry/sentry-wizard@v3.23.1
-  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.23.1
+  - pkg:github/getsentry/sentry-wizard@v3.23.2
+  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.23.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-07'
+  release_date: '2026-06-17'
   description: Sentry Project Setup Wizard
   tags:
   - sentry
@@ -364,12 +364,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.12.4
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.4
+  - pkg:github/gitbutlerapp/gitbutler@release/0.12.5
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.5
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-11'
+  release_date: '2026-06-17'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -377,12 +377,12 @@
   - github
   - tauri
 - identifiers:
-  - pkg:github/keygen-sh/keygen-api@v1.2.0
-  - pkg:generic/keygen-sh/keygen-api?vcs_url=git%2Bhttps://github.com/keygen-sh/keygen-api.git%40v1.2.0
+  - pkg:github/keygen-sh/keygen-api@v1.3.0
+  - pkg:generic/keygen-sh/keygen-api?vcs_url=git%2Bhttps://github.com/keygen-sh/keygen-api.git%40v1.3.0
   original_license: FCL-1.0-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-01-20'
+  release_date: '2026-06-17'
   description: Keygen is a modern, fair source software licensing and distribution
     API. For developers, by developers.
   website: https://keygen.sh
