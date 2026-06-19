@@ -298,12 +298,12 @@
   - tag-production
   - team-web-frontend
 - identifiers:
-  - pkg:github/getsentry/sentry-wizard@v3.23.2
-  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.23.2
+  - pkg:github/getsentry/sentry-wizard@v3.23.3
+  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.23.3
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-17'
+  release_date: '2026-06-19'
   description: Sentry Project Setup Wizard
   tags:
   - sentry
@@ -501,12 +501,12 @@
   - budget-app
   - budget-tool
 - identifiers:
-  - pkg:github/overmindtech/cli@v1.0.2
-  - pkg:generic/overmindtech/cli?vcs_url=git%2Bhttps://github.com/overmindtech/cli.git%40v1.0.2
+  - pkg:github/overmindtech/cli@v1.0.3
+  - pkg:generic/overmindtech/cli?vcs_url=git%2Bhttps://github.com/overmindtech/cli.git%40v1.0.3
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-06-14'
+  release_date: '2026-06-19'
   description: Identify the blast radius and risks for Terraform changes in real time
   website: https://overmind.tech/
   tags:
