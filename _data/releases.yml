@@ -477,6 +477,20 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
+  - pkg:github/mindworkai/ai-studio@v0.5.0
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.5.0
+  original_license: FSL-1.1-MIT
+  license: MIT
+  delay_yrs: 2
+  release_date: '2026-06-24'
+  description: MindWork AI Studio is a free, independent cross-platform desktop app
+    for local and cloud LLMs across providers, built to democratize AI access.
+  website: https://MindWorkAI.org/
+  tags:
+  - ai-assistant
+  - business
+  - llm
+- identifiers:
   - pkg:github/monetr/monetr@v0.17.5
   - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.17.5
   original_license: FSL-1.1-MIT
