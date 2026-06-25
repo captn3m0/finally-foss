@@ -154,6 +154,22 @@
   - cron
   - crontab
 - identifiers:
+  - pkg:github/deepauto-ai/hip-attention@0.0.1
+  - pkg:generic/deepauto-ai/hip-attention?vcs_url=git%2Bhttps://github.com/DeepAuto-AI/hip-attention.git%400.0.1
+  original_license: FSL-1.1-MIT
+  license: MIT
+  delay_yrs: 2
+  release_date: '2026-06-25'
+  description: Training-free Post-training Efficient Sub-quadratic Complexity Attention.
+    Implemented with OpenAI Triton.
+  tags:
+  - attention
+  - attention-mechanism
+  - openai-triton
+  - sub-quadratic-attention
+  - triton
+  - hip-attention
+- identifiers:
   - pkg:github/directus/directus@190927A
   - pkg:generic/directus/directus?vcs_url=git%2Bhttps://github.com/directus/directus.git%40190927A
   original_license: BUSL-1.1
@@ -364,12 +380,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.12.5
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.5
+  - pkg:github/gitbutlerapp/gitbutler@release/0.12.6
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.6
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-17'
+  release_date: '2026-06-25'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -477,12 +493,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.5.0
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.5.0
+  - pkg:github/mindworkai/ai-studio@v0.5.1
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.5.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-24'
+  release_date: '2026-06-25'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
@@ -675,12 +691,12 @@
   - pants
   - soong
 - identifiers:
-  - pkg:github/tuist/tuist@4.18.0
-  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.18.0
+  - pkg:github/tuist/tuist@4.19.0
+  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.19.0
   original_license: FCL-1.0-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-18'
+  release_date: '2026-06-25'
   description: A virtual platform team for mobile devs who ship
   website: https://tuist.dev
   tags:
