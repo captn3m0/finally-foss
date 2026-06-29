@@ -464,12 +464,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.26.3
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.3
+  - pkg:github/materializeinc/materialize@v0.26.4-rc1
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.4-rc1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-06-22'
+  release_date: '2026-06-29'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
