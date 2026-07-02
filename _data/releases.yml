@@ -74,12 +74,12 @@
   - firebase-firestore
   - realtime-database
 - identifiers:
-  - pkg:github/clockworklabs/spacetimedb@0.3.4-hotfix2
-  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%400.3.4-hotfix2
+  - pkg:github/clockworklabs/spacetimedb@0.5.0
+  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%400.5.0
   original_license: BUSL-1.1
   license: AGPL-3.0
   delay_yrs: 3
-  release_date: '2026-03-24'
+  release_date: '2026-07-02'
   description: Development at the speed of light
   website: https://spacetimedb.com
   tags:
@@ -562,6 +562,22 @@
   - postgresql
   - postgresql-extension
 - identifiers:
+  - pkg:github/ptah-sh/ptah-server@v0.0.1
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.0.1
+  original_license: FSL-1.1-ALv2
+  license: Apache-2.0
+  delay_yrs: 2
+  release_date: '2026-07-02'
+  description: Self-hosted alternative to Heroku
+  website: https://ptah.sh
+  tags:
+  - deployment
+  - devops
+  - fair-source
+  - self-hosted
+  - self-hostable
+  - self-hosting
+- identifiers:
   - pkg:github/quorafind/outliner.md@0.1.5
   - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.1.5
   original_license: FSL-1.1-ALv2
@@ -691,12 +707,12 @@
   - pants
   - soong
 - identifiers:
-  - pkg:github/tuist/tuist@4.19.0
-  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.19.0
+  - pkg:github/tuist/tuist@4.20.0
+  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.20.0
   original_license: FCL-1.0-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-25'
+  release_date: '2026-07-02'
   description: A virtual platform team for mobile devs who ship
   website: https://tuist.dev
   tags:
