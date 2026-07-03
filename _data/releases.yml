@@ -113,12 +113,12 @@
     are already Apache-2.0. v24.3+ uses proprietary CockroachDB Software License (CSL),
     no longer has delayed OSS conversion.
 - identifiers:
-  - pkg:github/codecov/gazebo@self-hosted-24.6.12
-  - pkg:generic/codecov/gazebo?vcs_url=git%2Bhttps://github.com/codecov/gazebo.git%40self-hosted-24.6.12
+  - pkg:github/codecov/gazebo@self-hosted-24.7.1
+  - pkg:generic/codecov/gazebo?vcs_url=git%2Bhttps://github.com/codecov/gazebo.git%40self-hosted-24.7.1
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-06-12'
+  release_date: '2026-07-03'
   description: React SPA
   website: https://app.codecov.io/login
   tags:
@@ -493,12 +493,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.6.2
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.6.2
+  - pkg:github/mindworkai/ai-studio@v0.6.3
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.6.3
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-07-01'
+  release_date: '2026-07-03'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
@@ -562,12 +562,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/ptah-sh/ptah-server@v0.0.1
-  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.0.1
+  - pkg:github/ptah-sh/ptah-server@v0.1.0
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.1.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-02'
+  release_date: '2026-07-03'
   description: Self-hosted alternative to Heroku
   website: https://ptah.sh
   tags:
