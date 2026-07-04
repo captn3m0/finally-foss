@@ -507,12 +507,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.17.7
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.17.7
+  - pkg:github/monetr/monetr@v0.17.8
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.17.8
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-06-30'
+  release_date: '2026-07-04'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -562,12 +562,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/ptah-sh/ptah-server@v0.1.0
-  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.1.0
+  - pkg:github/ptah-sh/ptah-server@v0.10.0
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.10.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-03'
+  release_date: '2026-07-04'
   description: Self-hosted alternative to Heroku
   website: https://ptah.sh
   tags:
