@@ -74,12 +74,12 @@
   - firebase-firestore
   - realtime-database
 - identifiers:
-  - pkg:github/clockworklabs/spacetimedb@0.5.0-hotfix1
-  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%400.5.0-hotfix1
+  - pkg:github/clockworklabs/spacetimedb@0.5.0-hotfix2
+  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%400.5.0-hotfix2
   original_license: BUSL-1.1
   license: AGPL-3.0
   delay_yrs: 3
-  release_date: '2026-07-09'
+  release_date: '2026-07-10'
   description: Development at the speed of light
   website: https://spacetimedb.com
   tags:
@@ -314,12 +314,12 @@
   - tag-production
   - team-web-frontend
 - identifiers:
-  - pkg:github/getsentry/sentry-wizard@v3.25.0
-  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.25.0
+  - pkg:github/getsentry/sentry-wizard@v3.25.1
+  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.25.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-07-09'
+  release_date: '2026-07-10'
   description: Sentry Project Setup Wizard
   tags:
   - sentry
@@ -562,12 +562,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/ptah-sh/ptah-server@v0.10.5
-  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.10.5
+  - pkg:github/ptah-sh/ptah-server@v0.11.0
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.11.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-05'
+  release_date: '2026-07-10'
   description: Self-hosted alternative to Heroku
   website: https://ptah.sh
   tags:
