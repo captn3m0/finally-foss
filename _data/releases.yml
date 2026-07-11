@@ -562,12 +562,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/ptah-sh/ptah-server@v0.11.0
-  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.11.0
+  - pkg:github/ptah-sh/ptah-server@v0.11.3
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.11.3
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-10'
+  release_date: '2026-07-11'
   description: Self-hosted alternative to Heroku
   website: https://ptah.sh
   tags:
