@@ -464,12 +464,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.26.4
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.26.4
+  - pkg:github/materializeinc/materialize@v0.27.0-alpha.1
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.27.0-alpha.1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-06-30'
+  release_date: '2026-07-13'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
@@ -493,12 +493,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.6.3
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.6.3
+  - pkg:github/mindworkai/ai-studio@v0.7.1
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.7.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-07-03'
+  release_date: '2026-07-13'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
