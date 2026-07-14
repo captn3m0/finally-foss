@@ -493,12 +493,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.7.1
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.7.1
+  - pkg:github/mindworkai/ai-studio@v0.8.0
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.8.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-07-13'
+  release_date: '2026-07-14'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
@@ -507,12 +507,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.17.10
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.17.10
+  - pkg:github/monetr/monetr@v0.17.11
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.17.11
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-07-09'
+  release_date: '2026-07-14'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -586,12 +586,12 @@
   release_date: '2026-06-05'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.1.4
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.1.4
+  - pkg:github/redpanda-data/redpanda@v22.1.5-rc1
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.1.5-rc1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-06-21'
+  release_date: '2026-07-14'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
