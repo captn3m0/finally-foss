@@ -22,12 +22,12 @@
   notes: 'Versions <= 2.6.x remain Apache-2.0. Apache Pekko forked from 2.6.x. Revenue
     threshold: businesses with >$25M annual revenue need commercial license.'
 - identifiers:
-  - pkg:github/billabear/billabear@2023.04.03
-  - pkg:generic/billabear/billabear?vcs_url=git%2Bhttps://github.com/billabear/billabear.git%402023.04.03
+  - pkg:github/billabear/billabear@2024.01.01
+  - pkg:generic/billabear/billabear?vcs_url=git%2Bhttps://github.com/billabear/billabear.git%402024.01.01
   original_license: FCL-1.0-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-04-01'
+  release_date: '2026-07-21'
   description: Subscription Management and Billing System
   website: https://billabear.com
   tags:
@@ -588,20 +588,20 @@
   - self-hostable
   - self-hosting
 - identifiers:
-  - pkg:github/quorafind/outliner.md@0.1.5
-  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.1.5
+  - pkg:github/quorafind/outliner.md@0.1.6
+  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.1.6
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-06-05'
+  release_date: '2026-07-21'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.1.5
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.1.5
+  - pkg:github/redpanda-data/redpanda@v22.2.1-rc1
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.2.1-rc1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-07-20'
+  release_date: '2026-07-21'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
