@@ -464,35 +464,6 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.27.0-alpha.4
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.27.0-alpha.4
-  original_license: BUSL-1.1
-  license: Apache-2.0
-  delay_yrs: 4
-  release_date: '2026-07-26'
-  description: The live data layer for apps and AI agents. Create up-to-the-second
-    views into your business, just using SQL
-  website: https://materialize.com
-  tags:
-  - rust
-  - database
-  - sql
-  - streaming
-  - kafka
-  - distributed-systems
-  - postgresql-dialect
-  - materialized-view
-  - stream-processing
-  - postgresql
-  - streaming-data
-  - operational-data-store
-  - data-store
-  - cdc
-  - data-mesh
-  - mysql
-  - sql-server
-  notes: Each version converts to Apache-2.0 after 4 years.
-- identifiers:
   - pkg:github/mindworkai/ai-studio@v0.8.4
   - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.8.4
   original_license: FSL-1.1-MIT
