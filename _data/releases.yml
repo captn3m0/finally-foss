@@ -443,24 +443,24 @@
   delay_yrs: 2
   release_date: '2026-07-31'
 - identifiers:
-  - pkg:github/liquibase/liquibase-cassandra@liquibase-cassandra-4.29.0
-  - pkg:generic/liquibase/liquibase-cassandra?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-cassandra.git%40liquibase-cassandra-4.29.0
+  - pkg:github/liquibase/liquibase-cassandra@liquibase-cassandra-4.29.1
+  - pkg:generic/liquibase/liquibase-cassandra?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-cassandra.git%40liquibase-cassandra-4.29.1
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-29'
+  release_date: '2026-08-01'
   description: Liquibase extension for Cassandra Support
   tags:
   - core
   - extension
   - oss
 - identifiers:
-  - pkg:github/liquibase/liquibase-oracle@liquibase-oracle-4.29.0
-  - pkg:generic/liquibase/liquibase-oracle?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-oracle.git%40liquibase-oracle-4.29.0
+  - pkg:github/liquibase/liquibase-oracle@liquibase-oracle-4.29.1
+  - pkg:generic/liquibase/liquibase-oracle?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-oracle.git%40liquibase-oracle-4.29.1
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-29'
+  release_date: '2026-08-01'
   description: Liquibase extension to add improved Oracle support
   tags:
   - hacktoberfest
@@ -686,6 +686,20 @@
   release_date: '2026-07-30'
   description: Automatically seed your database with production-like dummy data based
     on your schema for local development and testing.
+- identifiers:
+  - pkg:github/supabase-community/snapshot@v0.93.1
+  - pkg:generic/supabase-community/snapshot?vcs_url=git%2Bhttps://github.com/supabase-community/snapshot.git%40v0.93.1
+  original_license: FSL-1.1-MIT
+  license: MIT
+  delay_yrs: 2
+  release_date: '2026-08-01'
+  description: Capture a snapshot (or subset) of your Postgres database whilst transforming
+    the data.
+  website: https://snapshot-six.vercel.app
+  tags:
+  - postgres
+  - snapshot
+  - subset
 - identifiers:
   - pkg:github/taskgenius/taskgenius-plugin@2.0.0
   - pkg:generic/taskgenius/taskgenius-plugin?vcs_url=git%2Bhttps://github.com/taskgenius/taskgenius-plugin.git%402.0.0
