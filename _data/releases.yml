@@ -96,12 +96,12 @@
   - firebase-firestore
   - realtime-database
 - identifiers:
-  - pkg:github/clockworklabs/spacetimedb@v0.6.0-beta
-  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%40v0.6.0-beta
+  - pkg:github/clockworklabs/spacetimedb@v0.6.1-beta
+  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%40v0.6.1-beta
   original_license: BUSL-1.1
   license: AGPL-3.0
   delay_yrs: 3
-  release_date: '2026-08-03'
+  release_date: '2026-08-13'
   description: Development at the speed of light
   website: https://spacetimedb.com
   tags:
@@ -529,12 +529,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.17.12
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.17.12
+  - pkg:github/monetr/monetr@v0.17.13
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.17.13
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-07-15'
+  release_date: '2026-08-13'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -618,12 +618,12 @@
   release_date: '2026-08-06'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.2.1-rc3
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.2.1-rc3
+  - pkg:github/redpanda-data/redpanda@v22.2.1-rc4
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.2.1-rc4
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-08-10'
+  release_date: '2026-08-13'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
