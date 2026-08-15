@@ -272,23 +272,23 @@
   - hacktoberfest
   - redux
 - identifiers:
-  - pkg:github/getsentry/relay@24.7.1
-  - pkg:generic/getsentry/relay?vcs_url=git%2Bhttps://github.com/getsentry/relay.git%4024.7.1
+  - pkg:github/getsentry/relay@24.8.0
+  - pkg:generic/getsentry/relay?vcs_url=git%2Bhttps://github.com/getsentry/relay.git%4024.8.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-23'
+  release_date: '2026-08-15'
   description: Sentry event forwarding and ingestion service.
   website: https://docs.sentry.io/product/relay/
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/getsentry/self-hosted@24.7.1
-  - pkg:generic/getsentry/self-hosted?vcs_url=git%2Bhttps://github.com/getsentry/self-hosted.git%4024.7.1
+  - pkg:github/getsentry/self-hosted@24.8.0
+  - pkg:generic/getsentry/self-hosted?vcs_url=git%2Bhttps://github.com/getsentry/self-hosted.git%4024.8.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-23'
+  release_date: '2026-08-15'
   description: Sentry, feature-complete and packaged up for low-volume deployments
     and proofs-of-concept
   website: https://develop.sentry.dev/self-hosted/
@@ -355,12 +355,12 @@
   - team-web-frontend
   - sdk-adjacent
 - identifiers:
-  - pkg:github/getsentry/sentry@24.7.1
-  - pkg:generic/getsentry/sentry?vcs_url=git%2Bhttps://github.com/getsentry/sentry.git%4024.7.1
+  - pkg:github/getsentry/sentry@24.8.0
+  - pkg:generic/getsentry/sentry?vcs_url=git%2Bhttps://github.com/getsentry/sentry.git%4024.8.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-23'
+  release_date: '2026-08-15'
   description: Developer-first error tracking and performance monitoring
   website: https://sentry.io
   tags:
@@ -381,33 +381,33 @@
   - fair-source
   notes: Switched from BSL to FSL in Nov 2023 starting with 23.11.0.
 - identifiers:
-  - pkg:github/getsentry/snuba@24.7.1
-  - pkg:generic/getsentry/snuba?vcs_url=git%2Bhttps://github.com/getsentry/snuba.git%4024.7.1
+  - pkg:github/getsentry/snuba@24.8.0
+  - pkg:generic/getsentry/snuba?vcs_url=git%2Bhttps://github.com/getsentry/snuba.git%4024.8.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-23'
+  release_date: '2026-08-15'
   description: Search the seas for your lost treasure.
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/getsentry/symbolicator@24.7.1
-  - pkg:generic/getsentry/symbolicator?vcs_url=git%2Bhttps://github.com/getsentry/symbolicator.git%4024.7.1
+  - pkg:github/getsentry/symbolicator@24.8.0
+  - pkg:generic/getsentry/symbolicator?vcs_url=git%2Bhttps://github.com/getsentry/symbolicator.git%4024.8.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-07-23'
+  release_date: '2026-08-15'
   description: Native Symbolication as a Service
   website: https://getsentry.github.io/symbolicator/
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.12.19
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.19
+  - pkg:github/gitbutlerapp/gitbutler@release/0.12.20
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.20
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-08-11'
+  release_date: '2026-08-15'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -584,12 +584,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/powersync-ja/powersync-service@v0.4.3
-  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v0.4.3
+  - pkg:github/powersync-ja/powersync-service@v0.4.4
+  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v0.4.4
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-29'
+  release_date: '2026-08-15'
   description: PowerSync Service is the server-side component of the PowerSync sync
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
