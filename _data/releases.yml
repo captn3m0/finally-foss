@@ -618,12 +618,12 @@
   release_date: '2026-08-06'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.2.1-rc5
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.2.1-rc5
+  - pkg:github/redpanda-data/redpanda@v22.2.1
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.2.1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-08-16'
+  release_date: '2026-08-17'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
