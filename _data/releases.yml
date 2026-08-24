@@ -515,12 +515,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.8.11
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.8.11
+  - pkg:github/mindworkai/ai-studio@v0.8.12
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.8.12
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-08-21'
+  release_date: '2026-08-24'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
@@ -529,12 +529,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.17.14
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.17.14
+  - pkg:github/monetr/monetr@v0.17.15
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.17.15
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-08-23'
+  release_date: '2026-08-24'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
