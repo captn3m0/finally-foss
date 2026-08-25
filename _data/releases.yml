@@ -594,12 +594,12 @@
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
 - identifiers:
-  - pkg:github/ptah-sh/ptah-server@v0.20.0
-  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.20.0
+  - pkg:github/ptah-sh/ptah-server@v0.21.0
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.21.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-08-20'
+  release_date: '2026-08-25'
   description: Self-hosted alternative to Heroku
   website: https://ptah.sh
   tags:
