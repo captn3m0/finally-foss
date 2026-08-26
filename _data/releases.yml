@@ -402,12 +402,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.12.20
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.20
+  - pkg:github/gitbutlerapp/gitbutler@release/0.12.21
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.21
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-08-15'
+  release_date: '2026-08-26'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -584,12 +584,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/powersync-ja/powersync-service@v0.4.4
-  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v0.4.4
+  - pkg:github/powersync-ja/powersync-service@v0.5.0
+  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v0.5.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-08-15'
+  release_date: '2026-08-26'
   description: PowerSync Service is the server-side component of the PowerSync sync
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
