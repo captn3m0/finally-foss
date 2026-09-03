@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Track source-available releases transitioning to OSS"
 requires-python = ">=3.12"
 dependencies = [
-    "httpx>=0.27",
+    "httpx>=0.28.1",
     "packaging>=24.0",
     "pyyaml>=6.0",
 ]
