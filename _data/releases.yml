@@ -336,12 +336,12 @@
   - tag-production
   - team-web-frontend
 - identifiers:
-  - pkg:github/getsentry/sentry-wizard@v3.27.0
-  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.27.0
+  - pkg:github/getsentry/sentry-wizard@v3.28.0
+  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.28.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-08-29'
+  release_date: '2026-09-04'
   description: Sentry Project Setup Wizard
   tags:
   - sentry
@@ -444,12 +444,12 @@
   release_date: '2025-11-26'
   description: 速达 - 欲速亦可达
 - identifiers:
-  - pkg:github/liquibase/docker@v4.29.1
-  - pkg:generic/liquibase/docker?vcs_url=git%2Bhttps://github.com/liquibase/docker.git%40v4.29.1
+  - pkg:github/liquibase/docker@v4.29.2
+  - pkg:generic/liquibase/docker?vcs_url=git%2Bhttps://github.com/liquibase/docker.git%40v4.29.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-07-31'
+  release_date: '2026-09-04'
 - identifiers:
   - pkg:github/liquibase/liquibase-cassandra@liquibase-cassandra-4.29.1
   - pkg:generic/liquibase/liquibase-cassandra?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-cassandra.git%40liquibase-cassandra-4.29.1
@@ -476,12 +476,12 @@
   - extension
   - oss
 - identifiers:
-  - pkg:github/mariadb-corporation/maxscale@maxscale-23.02.4
-  - pkg:generic/mariadb-corporation/maxscale?vcs_url=git%2Bhttps://github.com/mariadb-corporation/MaxScale.git%40maxscale-23.02.4
+  - pkg:github/mariadb-corporation/maxscale@maxscale-23.08.0
+  - pkg:generic/mariadb-corporation/maxscale?vcs_url=git%2Bhttps://github.com/mariadb-corporation/MaxScale.git%40maxscale-23.08.0
   original_license: BUSL-1.1
   license: GPL-2.0-or-later
   delay_yrs: 3
-  release_date: '2026-08-30'
+  release_date: '2026-09-04'
   description: An intelligent database proxy.
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
@@ -515,12 +515,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.8.12
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.8.12
+  - pkg:github/mindworkai/ai-studio@v0.9.1
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.9.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-08-24'
+  release_date: '2026-09-04'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
@@ -724,12 +724,12 @@
   - task-management
   - task-manager
 - identifiers:
-  - pkg:github/tracemachina/nativelink@v0.5.1
-  - pkg:generic/tracemachina/nativelink?vcs_url=git%2Bhttps://github.com/TraceMachina/nativelink.git%40v0.5.1
+  - pkg:github/tracemachina/nativelink@v0.5.3
+  - pkg:generic/tracemachina/nativelink?vcs_url=git%2Bhttps://github.com/TraceMachina/nativelink.git%40v0.5.3
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-08-08'
+  release_date: '2026-09-04'
   description: NativeLink is a Nix-powered, open source, high-performance build cache
     and remote execution server, compatible with Bazel, Soong, Pants, Buck2, Reclient,
     and other RE-compatible build systems. It offers drastically faster builds, reduced
