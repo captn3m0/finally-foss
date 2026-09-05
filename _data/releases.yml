@@ -302,12 +302,12 @@
   - tag-production
   - fair-source
 - identifiers:
-  - pkg:github/getsentry/sentry-cli@2.34.1
-  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.34.1
+  - pkg:github/getsentry/sentry-cli@2.35.0
+  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.35.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-08-28'
+  release_date: '2026-09-05'
   description: A command line utility to work with Sentry.
   website: https://docs.sentry.io/cli/
   tags:
@@ -402,12 +402,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.12.23
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.23
+  - pkg:github/gitbutlerapp/gitbutler@release/0.12.24
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.12.24
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-02'
+  release_date: '2026-09-05'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -451,24 +451,24 @@
   delay_yrs: 2
   release_date: '2026-09-04'
 - identifiers:
-  - pkg:github/liquibase/liquibase-cassandra@liquibase-cassandra-4.29.1
-  - pkg:generic/liquibase/liquibase-cassandra?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-cassandra.git%40liquibase-cassandra-4.29.1
+  - pkg:github/liquibase/liquibase-cassandra@v4.29.2
+  - pkg:generic/liquibase/liquibase-cassandra?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-cassandra.git%40v4.29.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-08-01'
+  release_date: '2026-09-05'
   description: Liquibase extension for Cassandra Support
   tags:
   - core
   - extension
   - oss
 - identifiers:
-  - pkg:github/liquibase/liquibase-oracle@liquibase-oracle-4.29.1
-  - pkg:generic/liquibase/liquibase-oracle?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-oracle.git%40liquibase-oracle-4.29.1
+  - pkg:github/liquibase/liquibase-oracle@v4.29.2
+  - pkg:generic/liquibase/liquibase-oracle?vcs_url=git%2Bhttps://github.com/liquibase/liquibase-oracle.git%40v4.29.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-08-01'
+  release_date: '2026-09-05'
   description: Liquibase extension to add improved Oracle support
   tags:
   - hacktoberfest
@@ -515,12 +515,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.9.1
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.9.1
+  - pkg:github/mindworkai/ai-studio@v0.9.2
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.9.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-04'
+  release_date: '2026-09-05'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
@@ -529,12 +529,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.18.0
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.0
+  - pkg:github/monetr/monetr@v0.18.1
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-03'
+  release_date: '2026-09-05'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
