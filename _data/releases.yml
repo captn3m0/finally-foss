@@ -476,12 +476,12 @@
   - extension
   - oss
 - identifiers:
-  - pkg:github/mariadb-corporation/maxscale@maxscale-23.08.0
-  - pkg:generic/mariadb-corporation/maxscale?vcs_url=git%2Bhttps://github.com/mariadb-corporation/MaxScale.git%40maxscale-23.08.0
+  - pkg:github/mariadb-corporation/maxscale@maxscale-23.08.1
+  - pkg:generic/mariadb-corporation/maxscale?vcs_url=git%2Bhttps://github.com/mariadb-corporation/MaxScale.git%40maxscale-23.08.1
   original_license: BUSL-1.1
   license: GPL-2.0-or-later
   delay_yrs: 3
-  release_date: '2026-09-04'
+  release_date: '2026-09-21'
   description: An intelligent database proxy.
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
@@ -529,12 +529,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.18.1
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.1
+  - pkg:github/monetr/monetr@v0.18.3
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.3
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-05'
+  release_date: '2026-09-21'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -618,12 +618,12 @@
   release_date: '2026-09-09'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.2.2
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.2.2
+  - pkg:github/redpanda-data/redpanda@v22.2.3
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.2.3
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-08-19'
+  release_date: '2026-09-21'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
