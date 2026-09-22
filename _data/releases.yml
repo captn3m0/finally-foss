@@ -529,12 +529,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.18.3
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.3
+  - pkg:github/monetr/monetr@v0.18.5
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.5
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-21'
+  release_date: '2026-09-22'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
