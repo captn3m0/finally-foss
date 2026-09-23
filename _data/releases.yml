@@ -302,12 +302,12 @@
   - tag-production
   - fair-source
 - identifiers:
-  - pkg:github/getsentry/sentry-cli@2.36.1
-  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.36.1
+  - pkg:github/getsentry/sentry-cli@2.36.2
+  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.36.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-10'
+  release_date: '2026-09-23'
   description: A command line utility to work with Sentry.
   website: https://docs.sentry.io/cli/
   tags:
@@ -529,12 +529,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.18.5
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.5
+  - pkg:github/monetr/monetr@v0.18.7
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.7
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-22'
+  release_date: '2026-09-23'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -594,12 +594,12 @@
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
 - identifiers:
-  - pkg:github/ptah-sh/ptah-server@v0.29.0
-  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.29.0
+  - pkg:github/ptah-sh/ptah-server@v0.30.0
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.30.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-09-14'
+  release_date: '2026-09-23'
   description: Self-hosted alternative to Heroku
   website: https://ptah.sh
   tags:
@@ -659,12 +659,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcenetwork/defradb@v0.3.0
-  - pkg:generic/sourcenetwork/defradb?vcs_url=git%2Bhttps://github.com/sourcenetwork/defradb.git%40v0.3.0
+  - pkg:github/sourcenetwork/defradb@v0.3.1
+  - pkg:generic/sourcenetwork/defradb?vcs_url=git%2Bhttps://github.com/sourcenetwork/defradb.git%40v0.3.1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-08-03'
+  release_date: '2026-09-23'
   description: DefraDB is a Peer-to-Peer Edge-First Database. It's the core data storage
     system for the Source Ecosystem, built with IPLD, LibP2P, CRDTs, and Semantic
     open web properties.
