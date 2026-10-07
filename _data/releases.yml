@@ -66,12 +66,12 @@
   - data-pipelines
   - etl-pipelines
 - identifiers:
-  - pkg:github/chartbrew/chartbrew@v3.8.0
-  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.8.0
+  - pkg:github/chartbrew/chartbrew@v3.8.1
+  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.8.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-08-05'
+  release_date: '2026-10-07'
   description: Open-source reporting platform to build and share live dashboards from
     APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable
     charts 📈📊
@@ -302,12 +302,12 @@
   - tag-production
   - fair-source
 - identifiers:
-  - pkg:github/getsentry/sentry-cli@2.36.6
-  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.36.6
+  - pkg:github/getsentry/sentry-cli@2.37.0
+  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.37.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-02'
+  release_date: '2026-10-07'
   description: A command line utility to work with Sentry.
   website: https://docs.sentry.io/cli/
   tags:
@@ -486,12 +486,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.27.0-alpha.25
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.27.0-alpha.25
+  - pkg:github/materializeinc/materialize@v0.27.0-alpha.26
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.27.0-alpha.26
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-10-06'
+  release_date: '2026-10-07'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
@@ -515,12 +515,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.9.12
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.9.12
+  - pkg:github/mindworkai/ai-studio@v0.9.13
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.9.13
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-15'
+  release_date: '2026-10-07'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
@@ -618,12 +618,12 @@
   release_date: '2026-09-09'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.2.5
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.2.5
+  - pkg:github/redpanda-data/redpanda@v22.3.0-dev
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.3.0-dev
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-10-05'
+  release_date: '2026-10-07'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
