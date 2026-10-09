@@ -115,12 +115,12 @@
   - web-framework
   notes: Converts to AGPL-3.0 with a linking exception.
 - identifiers:
-  - pkg:github/cockroachdb/cockroach@v23.2.0-alpha.2
-  - pkg:generic/cockroachdb/cockroach?vcs_url=git%2Bhttps://github.com/cockroachdb/cockroach.git%40v23.2.0-alpha.2
+  - pkg:github/cockroachdb/cockroach@v23.2.0-alpha.3
+  - pkg:generic/cockroachdb/cockroach?vcs_url=git%2Bhttps://github.com/cockroachdb/cockroach.git%40v23.2.0-alpha.3
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 3
-  release_date: '2026-09-28'
+  release_date: '2026-10-09'
   description: CockroachDB — the cloud native, distributed SQL database designed for
     high availability, effortless scale, and control over data placement.
   website: https://www.cockroachlabs.com
@@ -336,12 +336,12 @@
   - tag-production
   - team-web-frontend
 - identifiers:
-  - pkg:github/getsentry/sentry-wizard@v3.32.0
-  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.32.0
+  - pkg:github/getsentry/sentry-wizard@v3.34.0
+  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.34.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-27'
+  release_date: '2026-10-09'
   description: Sentry Project Setup Wizard
   tags:
   - sentry
@@ -659,12 +659,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v1.0.1
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v1.0.1
+  - pkg:github/sourcebot-dev/sourcebot@v1.0.2
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v1.0.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-03'
+  release_date: '2026-10-09'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
@@ -768,12 +768,12 @@
   - pants
   - soong
 - identifiers:
-  - pkg:github/tuist/tuist@4.29.0
-  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.29.0
+  - pkg:github/tuist/tuist@4.29.1
+  - pkg:generic/tuist/tuist?vcs_url=git%2Bhttps://github.com/tuist/tuist.git%404.29.1
   original_license: FCL-1.0-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-08'
+  release_date: '2026-10-09'
   description: A virtual platform team for mobile devs who ship
   website: https://tuist.dev
   tags:
