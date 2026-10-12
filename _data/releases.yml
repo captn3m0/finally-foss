@@ -610,12 +610,12 @@
   - self-hostable
   - self-hosting
 - identifiers:
-  - pkg:github/quorafind/outliner.md@0.1.10
-  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.1.10
+  - pkg:github/quorafind/outliner.md@0.1.11
+  - pkg:generic/quorafind/outliner.md?vcs_url=git%2Bhttps://github.com/Quorafind/Outliner.MD.git%400.1.11
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-10'
+  release_date: '2026-10-12'
   website: https://outliner.md
 - identifiers:
   - pkg:github/redpanda-data/redpanda@v22.3.0-dev
