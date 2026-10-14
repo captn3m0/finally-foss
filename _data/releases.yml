@@ -402,12 +402,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.13.0
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.0
+  - pkg:github/gitbutlerapp/gitbutler@release/0.13.1
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-10'
+  release_date: '2026-10-14'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -618,12 +618,12 @@
   release_date: '2026-10-12'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.3.0-dev
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.3.0-dev
+  - pkg:github/redpanda-data/redpanda@v22.3.1-rc1
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.3.1-rc1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-10-07'
+  release_date: '2026-10-14'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
