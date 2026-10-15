@@ -272,12 +272,12 @@
   - hacktoberfest
   - redux
 - identifiers:
-  - pkg:github/getsentry/relay@24.9.0
-  - pkg:generic/getsentry/relay?vcs_url=git%2Bhttps://github.com/getsentry/relay.git%4024.9.0
+  - pkg:github/getsentry/relay@24.10.0
+  - pkg:generic/getsentry/relay?vcs_url=git%2Bhttps://github.com/getsentry/relay.git%4024.10.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-09-15'
+  release_date: '2026-10-15'
   description: Sentry event forwarding and ingestion service.
   website: https://docs.sentry.io/product/relay/
   tags:
@@ -355,12 +355,12 @@
   - team-web-frontend
   - sdk-adjacent
 - identifiers:
-  - pkg:github/getsentry/sentry@24.9.0
-  - pkg:generic/getsentry/sentry?vcs_url=git%2Bhttps://github.com/getsentry/sentry.git%4024.9.0
+  - pkg:github/getsentry/sentry@24.10.0
+  - pkg:generic/getsentry/sentry?vcs_url=git%2Bhttps://github.com/getsentry/sentry.git%4024.10.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-09-15'
+  release_date: '2026-10-15'
   description: Developer-first error tracking and performance monitoring
   website: https://sentry.io
   tags:
@@ -381,12 +381,12 @@
   - fair-source
   notes: Switched from BSL to FSL in Nov 2023 starting with 23.11.0.
 - identifiers:
-  - pkg:github/getsentry/snuba@24.9.0
-  - pkg:generic/getsentry/snuba?vcs_url=git%2Bhttps://github.com/getsentry/snuba.git%4024.9.0
+  - pkg:github/getsentry/snuba@24.10.0
+  - pkg:generic/getsentry/snuba?vcs_url=git%2Bhttps://github.com/getsentry/snuba.git%4024.10.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-09-15'
+  release_date: '2026-10-15'
   description: Search the seas for your lost treasure.
   tags:
   - tag-production
@@ -529,12 +529,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.18.14
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.14
+  - pkg:github/monetr/monetr@v0.18.15
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.15
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-13'
+  release_date: '2026-10-15'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -594,12 +594,12 @@
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
 - identifiers:
-  - pkg:github/ptah-sh/ptah-server@v0.33.1
-  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.33.1
+  - pkg:github/ptah-sh/ptah-server@v0.35.3
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.35.3
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-05'
+  release_date: '2026-10-15'
   description: Self-hosted alternative to Heroku
   website: https://ptah.sh
   tags:
@@ -659,12 +659,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v1.0.2
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v1.0.2
+  - pkg:github/sourcebot-dev/sourcebot@v1.0.3
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v1.0.3
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-09'
+  release_date: '2026-10-15'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
