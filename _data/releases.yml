@@ -283,12 +283,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/getsentry/self-hosted@24.9.0
-  - pkg:generic/getsentry/self-hosted?vcs_url=git%2Bhttps://github.com/getsentry/self-hosted.git%4024.9.0
+  - pkg:github/getsentry/self-hosted@24.10.0
+  - pkg:generic/getsentry/self-hosted?vcs_url=git%2Bhttps://github.com/getsentry/self-hosted.git%4024.10.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-09-15'
+  release_date: '2026-10-17'
   description: Sentry, feature-complete and packaged up for low-volume deployments
     and proofs-of-concept
   website: https://develop.sentry.dev/self-hosted/
@@ -391,23 +391,23 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/getsentry/symbolicator@24.9.0
-  - pkg:generic/getsentry/symbolicator?vcs_url=git%2Bhttps://github.com/getsentry/symbolicator.git%4024.9.0
+  - pkg:github/getsentry/symbolicator@24.10.0
+  - pkg:generic/getsentry/symbolicator?vcs_url=git%2Bhttps://github.com/getsentry/symbolicator.git%4024.10.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-09-15'
+  release_date: '2026-10-17'
   description: Native Symbolication as a Service
   website: https://getsentry.github.io/symbolicator/
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.13.1
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.1
+  - pkg:github/gitbutlerapp/gitbutler@release/0.13.2
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-14'
+  release_date: '2026-10-17'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -659,12 +659,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v1.0.3
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v1.0.3
+  - pkg:github/sourcebot-dev/sourcebot@v2.0.1
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.0.1
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-15'
+  release_date: '2026-10-17'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
