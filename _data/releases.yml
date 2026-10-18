@@ -52,12 +52,12 @@
   - subscription
   - subscription-management
 - identifiers:
-  - pkg:github/burla-cloud/burla@0.8.4
-  - pkg:generic/burla-cloud/burla?vcs_url=git%2Bhttps://github.com/Burla-Cloud/burla.git%400.8.4
+  - pkg:github/burla-cloud/burla@0.8.5
+  - pkg:generic/burla-cloud/burla?vcs_url=git%2Bhttps://github.com/Burla-Cloud/burla.git%400.8.5
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-08'
+  release_date: '2026-10-18'
   description: The simplest way to scale Python.
   website: https://burla.dev
   tags:
@@ -66,12 +66,12 @@
   - data-pipelines
   - etl-pipelines
 - identifiers:
-  - pkg:github/chartbrew/chartbrew@v3.8.1
-  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.8.1
+  - pkg:github/chartbrew/chartbrew@v3.8.2
+  - pkg:generic/chartbrew/chartbrew?vcs_url=git%2Bhttps://github.com/chartbrew/chartbrew.git%40v3.8.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-07'
+  release_date: '2026-10-18'
   description: Open-source reporting platform to build and share live dashboards from
     APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable
     charts 📈📊
@@ -96,12 +96,12 @@
   - firebase-firestore
   - realtime-database
 - identifiers:
-  - pkg:github/clockworklabs/spacetimedb@v0.7.0-beta
-  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%40v0.7.0-beta
+  - pkg:github/clockworklabs/spacetimedb@v0.7.1-beta-hotfix1
+  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%40v0.7.1-beta-hotfix1
   original_license: BUSL-1.1
   license: AGPL-3.0
   delay_yrs: 3
-  release_date: '2026-10-06'
+  release_date: '2026-10-18'
   description: Development at the speed of light
   website: https://spacetimedb.com
   tags:
@@ -486,12 +486,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.27.0
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.27.0
+  - pkg:github/materializeinc/materialize@v0.28.0
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.28.0
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-10-11'
+  release_date: '2026-10-18'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
@@ -515,12 +515,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.9.13
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.9.13
+  - pkg:github/mindworkai/ai-studio@v0.9.14
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.9.14
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-07'
+  release_date: '2026-10-18'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
@@ -594,12 +594,12 @@
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
 - identifiers:
-  - pkg:github/ptah-sh/ptah-server@v0.35.4
-  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.35.4
+  - pkg:github/ptah-sh/ptah-server@v0.35.5
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.35.5
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-16'
+  release_date: '2026-10-18'
   description: Self-hosted alternative to Heroku
   website: https://ptah.sh
   tags:
@@ -659,12 +659,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v2.0.1
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.0.1
+  - pkg:github/sourcebot-dev/sourcebot@v2.0.2
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.0.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-17'
+  release_date: '2026-10-18'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
