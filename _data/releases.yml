@@ -52,12 +52,12 @@
   - subscription
   - subscription-management
 - identifiers:
-  - pkg:github/burla-cloud/burla@0.8.5
-  - pkg:generic/burla-cloud/burla?vcs_url=git%2Bhttps://github.com/Burla-Cloud/burla.git%400.8.5
+  - pkg:github/burla-cloud/burla@0.8.6
+  - pkg:generic/burla-cloud/burla?vcs_url=git%2Bhttps://github.com/Burla-Cloud/burla.git%400.8.6
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-18'
+  release_date: '2026-10-29'
   description: The simplest way to scale Python.
   website: https://burla.dev
   tags:
@@ -402,12 +402,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.13.7
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.7
+  - pkg:github/gitbutlerapp/gitbutler@release/0.13.8
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.8
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-24'
+  release_date: '2026-10-29'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -476,12 +476,12 @@
   - extension
   - oss
 - identifiers:
-  - pkg:github/mariadb-corporation/maxscale@maxscale-23.08.1
-  - pkg:generic/mariadb-corporation/maxscale?vcs_url=git%2Bhttps://github.com/mariadb-corporation/MaxScale.git%40maxscale-23.08.1
+  - pkg:github/mariadb-corporation/maxscale@maxscale-23.08.2
+  - pkg:generic/mariadb-corporation/maxscale?vcs_url=git%2Bhttps://github.com/mariadb-corporation/MaxScale.git%40maxscale-23.08.2
   original_license: BUSL-1.1
   license: GPL-2.0-or-later
   delay_yrs: 3
-  release_date: '2026-09-21'
+  release_date: '2026-10-29'
   description: An intelligent database proxy.
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
@@ -644,12 +644,12 @@
   notes: 'Each version converts to Apache-2.0 after 4 years. Restriction: cannot offer
     as commercial streaming service.'
 - identifiers:
-  - pkg:github/safe-global/safe-transaction-service@v5.10.0
-  - pkg:generic/safe-global/safe-transaction-service?vcs_url=git%2Bhttps://github.com/safe-global/safe-transaction-service.git%40v5.10.0
+  - pkg:github/safe-global/safe-transaction-service@v5.11.0
+  - pkg:generic/safe-global/safe-transaction-service?vcs_url=git%2Bhttps://github.com/safe-global/safe-transaction-service.git%40v5.11.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-16'
+  release_date: '2026-10-29'
   description: Keeps track of transactions sent via Safe contacts and confirmed transactions.
     It also keeps track of Ether and ERC20 token transfers to Safe contracts.
   tags:
