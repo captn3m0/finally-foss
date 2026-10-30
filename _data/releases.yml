@@ -302,12 +302,12 @@
   - tag-production
   - fair-source
 - identifiers:
-  - pkg:github/getsentry/sentry-cli@2.38.0
-  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.38.0
+  - pkg:github/getsentry/sentry-cli@2.38.1
+  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.38.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-22'
+  release_date: '2026-10-30'
   description: A command line utility to work with Sentry.
   website: https://docs.sentry.io/cli/
   tags:
@@ -336,12 +336,12 @@
   - tag-production
   - team-web-frontend
 - identifiers:
-  - pkg:github/getsentry/sentry-wizard@v3.34.2
-  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.34.2
+  - pkg:github/getsentry/sentry-wizard@v3.34.3
+  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.34.3
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-16'
+  release_date: '2026-10-30'
   description: Sentry Project Setup Wizard
   tags:
   - sentry
@@ -659,12 +659,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v2.1.1
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.1.1
+  - pkg:github/sourcebot-dev/sourcebot@v2.2.0
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.2.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-25'
+  release_date: '2026-10-30'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
