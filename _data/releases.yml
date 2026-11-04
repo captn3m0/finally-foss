@@ -135,12 +135,12 @@
     are already Apache-2.0. v24.3+ uses proprietary CockroachDB Software License (CSL),
     no longer has delayed OSS conversion.
 - identifiers:
-  - pkg:github/codecov/gazebo@self-hosted-24.10.1
-  - pkg:generic/codecov/gazebo?vcs_url=git%2Bhttps://github.com/codecov/gazebo.git%40self-hosted-24.10.1
+  - pkg:github/codecov/gazebo@self-hosted-24.11.1
+  - pkg:generic/codecov/gazebo?vcs_url=git%2Bhttps://github.com/codecov/gazebo.git%40self-hosted-24.11.1
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-01'
+  release_date: '2026-11-04'
   description: React SPA
   website: https://app.codecov.io/login
   tags:
@@ -302,12 +302,12 @@
   - tag-production
   - fair-source
 - identifiers:
-  - pkg:github/getsentry/sentry-cli@2.38.1
-  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.38.1
+  - pkg:github/getsentry/sentry-cli@2.38.2
+  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.38.2
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-30'
+  release_date: '2026-11-04'
   description: A command line utility to work with Sentry.
   website: https://docs.sentry.io/cli/
   tags:
@@ -336,12 +336,12 @@
   - tag-production
   - team-web-frontend
 - identifiers:
-  - pkg:github/getsentry/sentry-wizard@v3.34.3
-  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.34.3
+  - pkg:github/getsentry/sentry-wizard@v3.34.4
+  - pkg:generic/getsentry/sentry-wizard?vcs_url=git%2Bhttps://github.com/getsentry/sentry-wizard.git%40v3.34.4
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-10-30'
+  release_date: '2026-11-04'
   description: Sentry Project Setup Wizard
   tags:
   - sentry
@@ -584,12 +584,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/powersync-ja/powersync-service@v0.5.6
-  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v0.5.6
+  - pkg:github/powersync-ja/powersync-service@v0.5.7
+  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v0.5.7
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-10-31'
+  release_date: '2026-11-04'
   description: PowerSync Service is the server-side component of the PowerSync sync
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
@@ -618,12 +618,12 @@
   release_date: '2026-10-21'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.3.1-rc3
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.3.1-rc3
+  - pkg:github/redpanda-data/redpanda@v22.3.1-rc4
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.3.1-rc4
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-11-02'
+  release_date: '2026-11-04'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
@@ -738,6 +738,19 @@
   - obsidian-plugin
   - task-management
   - task-manager
+- identifiers:
+  - pkg:github/tjmlabs/colivara@v1.1.0
+  - pkg:generic/tjmlabs/colivara?vcs_url=git%2Bhttps://github.com/tjmlabs/ColiVara.git%40v1.1.0
+  original_license: FSL-1.1-ALv2
+  license: Apache-2.0
+  delay_yrs: 2
+  release_date: '2026-11-04'
+  description: Colivara is a suite of services that allows you to store, search, and
+    retrieve documents based on their visual embedding. ColiVara has state of the
+    art retrieval performance on both text and visual documents. using vision models
+    instead of chunking and text-processing for documents. No OCR, no text extraction,
+    no broken tables, or missing images.
+  website: https://colivara.com
 - identifiers:
   - pkg:github/tracemachina/nativelink@v0.5.3
   - pkg:generic/tracemachina/nativelink?vcs_url=git%2Bhttps://github.com/TraceMachina/nativelink.git%40v0.5.3
