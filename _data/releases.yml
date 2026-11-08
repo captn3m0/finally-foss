@@ -96,12 +96,12 @@
   - firebase-firestore
   - realtime-database
 - identifiers:
-  - pkg:github/clockworklabs/spacetimedb@v0.7.2-beta
-  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%40v0.7.2-beta
+  - pkg:github/clockworklabs/spacetimedb@v0.7.3-beta-hotfix1
+  - pkg:generic/clockworklabs/spacetimedb?vcs_url=git%2Bhttps://github.com/clockworklabs/SpacetimeDB.git%40v0.7.3-beta-hotfix1
   original_license: BUSL-1.1
   license: AGPL-3.0
   delay_yrs: 3
-  release_date: '2026-10-31'
+  release_date: '2026-11-08'
   description: Development at the speed of light
   website: https://spacetimedb.com
   tags:
@@ -224,12 +224,12 @@
   - mariadb
   notes: Versions <= 9.x remain GPL-3.0.
 - identifiers:
-  - pkg:github/dotcms/core@v22.09
-  - pkg:generic/dotcms/core?vcs_url=git%2Bhttps://github.com/dotCMS/core.git%40v22.09
+  - pkg:github/dotcms/core@22.10.1
+  - pkg:generic/dotcms/core?vcs_url=git%2Bhttps://github.com/dotCMS/core.git%4022.10.1
   original_license: BUSL-1.1
   license: GPL-3.0
   delay_yrs: 4
-  release_date: '2026-09-13'
+  release_date: '2026-11-08'
   description: The Visual Headless Content Management System for Enterprises
   website: http://dotcms.com
   tags:
@@ -402,12 +402,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.13.12
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.12
+  - pkg:github/gitbutlerapp/gitbutler@release/0.13.13
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.13
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-11-06'
+  release_date: '2026-11-08'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -486,12 +486,12 @@
   website: https://github.com/mariadb-corporation/MaxScale/wiki
   notes: 3-year delay. Versions through 21.06 are now GPL. v25.01+ switched to proprietary.
 - identifiers:
-  - pkg:github/materializeinc/materialize@v0.30.2
-  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.30.2
+  - pkg:github/materializeinc/materialize@v0.31.0
+  - pkg:generic/materializeinc/materialize?vcs_url=git%2Bhttps://github.com/MaterializeInc/materialize.git%40v0.31.0
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-11-07'
+  release_date: '2026-11-08'
   description: The live data layer for apps and AI agents. Create up-to-the-second
     views into your business, just using SQL
   website: https://materialize.com
@@ -739,12 +739,12 @@
   - task-management
   - task-manager
 - identifiers:
-  - pkg:github/tjmlabs/colivara@v1.2.3
-  - pkg:generic/tjmlabs/colivara?vcs_url=git%2Bhttps://github.com/tjmlabs/ColiVara.git%40v1.2.3
+  - pkg:github/tjmlabs/colivara@v1.3.1
+  - pkg:generic/tjmlabs/colivara?vcs_url=git%2Bhttps://github.com/tjmlabs/ColiVara.git%40v1.3.1
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-06'
+  release_date: '2026-11-08'
   description: Colivara is a suite of services that allows you to store, search, and
     retrieve documents based on their visual embedding. ColiVara has state of the
     art retrieval performance on both text and visual documents. using vision models
