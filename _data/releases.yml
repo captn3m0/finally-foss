@@ -529,12 +529,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.18.21
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.21
+  - pkg:github/monetr/monetr@v0.18.24
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.24
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-11-05'
+  release_date: '2026-11-11'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -618,12 +618,12 @@
   release_date: '2026-10-21'
   website: https://outliner.md
 - identifiers:
-  - pkg:github/redpanda-data/redpanda@v22.3.1-rc4
-  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v22.3.1-rc4
+  - pkg:github/redpanda-data/redpanda@v23.1.0-dev
+  - pkg:generic/redpanda-data/redpanda?vcs_url=git%2Bhttps://github.com/redpanda-data/redpanda.git%40v23.1.0-dev
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 4
-  release_date: '2026-11-04'
+  release_date: '2026-11-11'
   description: Redpanda is a streaming data platform for developers. Kafka API compatible.
     10x faster. No ZooKeeper. No JVM!
   website: https://redpanda.com
@@ -659,12 +659,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v2.4.0
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.4.0
+  - pkg:github/sourcebot-dev/sourcebot@v2.4.1
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.4.1
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-06'
+  release_date: '2026-11-11'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
