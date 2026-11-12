@@ -529,12 +529,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.18.24
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.24
+  - pkg:github/monetr/monetr@v0.18.25
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.25
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-11-11'
+  release_date: '2026-11-12'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -584,12 +584,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/powersync-ja/powersync-service@v0.5.7
-  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v0.5.7
+  - pkg:github/powersync-ja/powersync-service@v0.5.8
+  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v0.5.8
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-04'
+  release_date: '2026-11-12'
   description: PowerSync Service is the server-side component of the PowerSync sync
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
@@ -739,12 +739,12 @@
   - task-management
   - task-manager
 - identifiers:
-  - pkg:github/tjmlabs/colivara@v1.3.1
-  - pkg:generic/tjmlabs/colivara?vcs_url=git%2Bhttps://github.com/tjmlabs/ColiVara.git%40v1.3.1
+  - pkg:github/tjmlabs/colivara@v1.3.2
+  - pkg:generic/tjmlabs/colivara?vcs_url=git%2Bhttps://github.com/tjmlabs/ColiVara.git%40v1.3.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-08'
+  release_date: '2026-11-12'
   description: Colivara is a suite of services that allows you to store, search, and
     retrieve documents based on their visual embedding. ColiVara has state of the
     art retrieval performance on both text and visual documents. using vision models
