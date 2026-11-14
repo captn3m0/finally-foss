@@ -151,18 +151,6 @@
   - typescript
   - vite
 - identifiers:
-  - pkg:github/codecrafters-io/frontend@v1246
-  - pkg:generic/codecrafters-io/frontend?vcs_url=git%2Bhttps://github.com/codecrafters-io/frontend.git%40v1246
-  original_license: FSL-1.1-MIT
-  license: MIT
-  delay_yrs: 2
-  release_date: '2026-01-09'
-  description: Rebuild complex systems from scratch
-  website: https://app.codecrafters.io/catalog
-  tags:
-  - ember
-  - programming-challenges
-- identifiers:
   - pkg:github/cronitorio/cronitor-cli@30.4
   - pkg:generic/cronitorio/cronitor-cli?vcs_url=git%2Bhttps://github.com/cronitorio/cronitor-cli.git%4030.4
   original_license: FSL-1.1-MIT
@@ -515,12 +503,12 @@
   - sql-server
   notes: Each version converts to Apache-2.0 after 4 years.
 - identifiers:
-  - pkg:github/mindworkai/ai-studio@v0.9.18
-  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.9.18
+  - pkg:github/mindworkai/ai-studio@v0.9.19
+  - pkg:generic/mindworkai/ai-studio?vcs_url=git%2Bhttps://github.com/MindWorkAI/AI-Studio.git%40v0.9.19
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-11-09'
+  release_date: '2026-11-14'
   description: MindWork AI Studio is a free, independent cross-platform desktop app
     for local and cloud LLMs across providers, built to democratize AI access.
   website: https://MindWorkAI.org/
@@ -659,12 +647,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v2.4.1
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.4.1
+  - pkg:github/sourcebot-dev/sourcebot@v2.4.2
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.4.2
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-11'
+  release_date: '2026-11-14'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
@@ -739,12 +727,12 @@
   - task-management
   - task-manager
 - identifiers:
-  - pkg:github/tjmlabs/colivara@v1.3.2
-  - pkg:generic/tjmlabs/colivara?vcs_url=git%2Bhttps://github.com/tjmlabs/ColiVara.git%40v1.3.2
+  - pkg:github/tjmlabs/colivara@v1.3.3
+  - pkg:generic/tjmlabs/colivara?vcs_url=git%2Bhttps://github.com/tjmlabs/ColiVara.git%40v1.3.3
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-12'
+  release_date: '2026-11-14'
   description: Colivara is a suite of services that allows you to store, search, and
     retrieve documents based on their visual embedding. ColiVara has state of the
     art retrieval performance on both text and visual documents. using vision models
