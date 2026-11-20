@@ -52,12 +52,12 @@
   - subscription
   - subscription-management
 - identifiers:
-  - pkg:github/burla-cloud/burla@0.8.8
-  - pkg:generic/burla-cloud/burla?vcs_url=git%2Bhttps://github.com/Burla-Cloud/burla.git%400.8.8
+  - pkg:github/burla-cloud/burla@0.8.9
+  - pkg:generic/burla-cloud/burla?vcs_url=git%2Bhttps://github.com/Burla-Cloud/burla.git%400.8.9
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-13'
+  release_date: '2026-11-20'
   description: The simplest way to scale Python.
   website: https://burla.dev
   tags:
@@ -390,12 +390,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.13.15
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.15
+  - pkg:github/gitbutlerapp/gitbutler@release/0.13.16
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.16
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-11-15'
+  release_date: '2026-11-20'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -632,12 +632,12 @@
   notes: 'Each version converts to Apache-2.0 after 4 years. Restriction: cannot offer
     as commercial streaming service.'
 - identifiers:
-  - pkg:github/safe-global/safe-transaction-service@v5.13.0
-  - pkg:generic/safe-global/safe-transaction-service?vcs_url=git%2Bhttps://github.com/safe-global/safe-transaction-service.git%40v5.13.0
+  - pkg:github/safe-global/safe-transaction-service@v5.13.1
+  - pkg:generic/safe-global/safe-transaction-service?vcs_url=git%2Bhttps://github.com/safe-global/safe-transaction-service.git%40v5.13.1
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-11-19'
+  release_date: '2026-11-20'
   description: Keeps track of transactions sent via Safe contacts and confirmed transactions.
     It also keeps track of Ether and ERC20 token transfers to Safe contracts.
   tags:
@@ -647,12 +647,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v2.4.3
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.4.3
+  - pkg:github/sourcebot-dev/sourcebot@v2.4.4
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.4.4
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-18'
+  release_date: '2026-11-20'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
