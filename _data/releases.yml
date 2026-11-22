@@ -52,12 +52,12 @@
   - subscription
   - subscription-management
 - identifiers:
-  - pkg:github/burla-cloud/burla@0.8.9
-  - pkg:generic/burla-cloud/burla?vcs_url=git%2Bhttps://github.com/Burla-Cloud/burla.git%400.8.9
+  - pkg:github/burla-cloud/burla@0.8.10
+  - pkg:generic/burla-cloud/burla?vcs_url=git%2Bhttps://github.com/Burla-Cloud/burla.git%400.8.10
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-20'
+  release_date: '2026-11-22'
   description: The simplest way to scale Python.
   website: https://burla.dev
   tags:
@@ -115,12 +115,12 @@
   - web-framework
   notes: Converts to AGPL-3.0 with a linking exception.
 - identifiers:
-  - pkg:github/cockroachdb/cockroach@v23.2.0-alpha.7
-  - pkg:generic/cockroachdb/cockroach?vcs_url=git%2Bhttps://github.com/cockroachdb/cockroach.git%40v23.2.0-alpha.7
+  - pkg:github/cockroachdb/cockroach@v23.2.0-beta.1
+  - pkg:generic/cockroachdb/cockroach?vcs_url=git%2Bhttps://github.com/cockroachdb/cockroach.git%40v23.2.0-beta.1
   original_license: BUSL-1.1
   license: Apache-2.0
   delay_yrs: 3
-  release_date: '2026-11-16'
+  release_date: '2026-11-22'
   description: CockroachDB — the cloud native, distributed SQL database designed for
     high availability, effortless scale, and control over data placement.
   website: https://www.cockroachlabs.com
@@ -290,12 +290,12 @@
   - tag-production
   - fair-source
 - identifiers:
-  - pkg:github/getsentry/sentry-cli@2.38.2
-  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.38.2
+  - pkg:github/getsentry/sentry-cli@2.39.0
+  - pkg:generic/getsentry/sentry-cli?vcs_url=git%2Bhttps://github.com/getsentry/sentry-cli.git%402.39.0
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-11-04'
+  release_date: '2026-11-22'
   description: A command line utility to work with Sentry.
   website: https://docs.sentry.io/cli/
   tags:
@@ -390,12 +390,12 @@
   tags:
   - tag-production
 - identifiers:
-  - pkg:github/gitbutlerapp/gitbutler@release/0.13.16
-  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.16
+  - pkg:github/gitbutlerapp/gitbutler@release/0.13.17
+  - pkg:generic/gitbutlerapp/gitbutler?vcs_url=git%2Bhttps://github.com/gitbutlerapp/gitbutler.git%40release/0.13.17
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-11-20'
+  release_date: '2026-11-22'
   description: The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
   website: https://gitbutler.com
   tags:
@@ -536,12 +536,12 @@
   - business
   - llm
 - identifiers:
-  - pkg:github/monetr/monetr@v0.18.30
-  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.30
+  - pkg:github/monetr/monetr@v0.18.31
+  - pkg:generic/monetr/monetr?vcs_url=git%2Bhttps://github.com/monetr/monetr.git%40v0.18.31
   original_license: FSL-1.1-MIT
   license: MIT
   delay_yrs: 2
-  release_date: '2026-11-21'
+  release_date: '2026-11-22'
   description: monetr is a budgeting application focused on planning for recurring
     expenses.
   website: https://monetr.app
@@ -601,12 +601,12 @@
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
 - identifiers:
-  - pkg:github/ptah-sh/ptah-server@v0.41.0
-  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.41.0
+  - pkg:github/ptah-sh/ptah-server@v0.42.5
+  - pkg:generic/ptah-sh/ptah-server?vcs_url=git%2Bhttps://github.com/ptah-sh/ptah-server.git%40v0.42.5
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-13'
+  release_date: '2026-11-22'
   description: Self-hosted alternative to Heroku
   website: https://ptah.sh
   tags:
@@ -666,12 +666,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v2.4.4
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.4.4
+  - pkg:github/sourcebot-dev/sourcebot@v2.5.0
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.5.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-20'
+  release_date: '2026-11-22'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
