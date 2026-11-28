@@ -591,12 +591,12 @@
   - postgresql
   - postgresql-extension
 - identifiers:
-  - pkg:github/powersync-ja/powersync-service@v1.0.0
-  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v1.0.0
+  - pkg:github/powersync-ja/powersync-service@v1.1.0
+  - pkg:generic/powersync-ja/powersync-service?vcs_url=git%2Bhttps://github.com/powersync-ja/powersync-service.git%40v1.1.0
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-27'
+  release_date: '2026-11-28'
   description: PowerSync Service is the server-side component of the PowerSync sync
     engine.
   website: https://docs.powersync.com/architecture/powersync-service
@@ -666,12 +666,12 @@
   - multisig
   - backend
 - identifiers:
-  - pkg:github/sourcebot-dev/sourcebot@v2.5.2
-  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.5.2
+  - pkg:github/sourcebot-dev/sourcebot@v2.5.3
+  - pkg:generic/sourcebot-dev/sourcebot?vcs_url=git%2Bhttps://github.com/sourcebot-dev/sourcebot.git%40v2.5.3
   original_license: FSL-1.1-ALv2
   license: Apache-2.0
   delay_yrs: 2
-  release_date: '2026-11-27'
+  release_date: '2026-11-28'
   description: Sourcebot is a self-hosted tool that helps developers and agents understand
     your codebase.
   website: https://sourcebot.dev
